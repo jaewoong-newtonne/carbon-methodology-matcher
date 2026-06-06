@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "doc": "Curated registry / program knowledge layer for within-group methodology disambiguation (ICDM 2026). Market segment + SDG-labeling are well-established facts. compliance_pathway = the registry issues credits usable in a compliance/Article-6/CORSIA context (vs voluntary-primary). NOTE: exact CORSIA/Article-6 eligibility is program- and vintage-dependent and is NOT asserted per-vintage here; this layer is for soft preference + documentation, and only observable-matchable attributes (segment, sdg_mandatory) are used in the eval re-ranker.",
+  "registries": {
+    "CDM":  {"name": "Clean Development Mechanism (UNFCCC)", "segment": "compliance",          "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "global"},
+    "GS":   {"name": "Gold Standard",                        "segment": "premium-voluntary",   "sdg_mandatory": true,  "compliance_pathway": true,  "hq_region": "global"},
+    "VCS":  {"name": "Verified Carbon Standard (Verra)",     "segment": "volume-voluntary",     "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "global"},
+    "GCC":  {"name": "Global Carbon Council",                "segment": "voluntary",            "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "mena"},
+    "ACR":  {"name": "American Carbon Registry",             "segment": "compliance-voluntary", "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "north-america"},
+    "CAR":  {"name": "Climate Action Reserve",               "segment": "compliance-voluntary", "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "north-america"},
+    "ACCU": {"name": "Australian Carbon Credit Units",       "segment": "compliance",           "sdg_mandatory": false, "compliance_pathway": true,  "hq_region": "oceania"},
+    "ART":  {"name": "Architecture for REDD+ Transactions",  "segment": "jurisdictional-voluntary", "sdg_mandatory": false, "compliance_pathway": true, "hq_region": "global"},
+    "ISO":  {"name": "ISO-aligned program",                 "segment": "voluntary",            "sdg_mandatory": false, "compliance_pathway": false, "hq_region": "global"}
+  },
+  "_default": {"segment": "voluntary", "sdg_mandatory": false, "compliance_pathway": false, "hq_region": "global"}
+}

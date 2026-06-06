@@ -1,0 +1,97 @@
+# guidance_index.yaml — seed allowlist for the guidance harvest
+# ─────────────────────────────────────────────────────────────────────────────
+# Registry FRAMEWORK RULEBOOKS only (registry-level rules that encode
+# applicability / eligibility / threshold decision-logic) — NOT methodology
+# documents, NOT project PDDs.
+#
+# Consumed by: carbonmm/ingest/scrape_guidance.py --discover
+# Output: data/manifests/guidance-review.yaml (all rows review_status: pending)
+#
+# Per registry:
+#   discover_engine: playwright | snapshot   (how --discover reads catalog pages)
+#   fetch_engine:    httpx                    (PDF binaries served from edge/CDN)
+#   catalogs:        category pages to crawl for /standards/*.pdf anchors
+#   exclude_catalogs: documented out-of-scope pages (methodologies)
+#   expected:        sanity-check must-have doc_ids (drives "expected N, found M")
+#
+# WAF-hard interactive discovery (CDM Incapsula): use a headless browser
+# automation tool to render + save the page as
+# data/snapshots/guidance-{reg}-YYYYMMDD.html, then run --discover --engine snapshot.
+# ─────────────────────────────────────────────────────────────────────────────
+version: "0.1"
+
+registries:
+
+  # ── Gold Standard (GS4GG) ──────────────────────────────────────────────────
+  # globalgoals.goldstandard.org: framework rulebooks live as direct
+  #   /standards/{code}_V{ver}_{TAG}_{slug}.pdf  links on numbered category pages.
+  # Soft Cloudflare → headless browser automation works.
+  GS:
+    registry: GS
+    authority: Gold Standard
+    discover_engine: playwright
+    fetch_engine: httpx
+    parse_mode: filename          # doc identity from {code}_V{ver}_{TAG}_{slug}.pdf
+    pdf_host_prefix: "https://globalgoals.goldstandard.org/standards/"
+    catalogs:
+      - {url: "https://globalgoals.goldstandard.org/100-principles-and-requirements/", section: "100 Principles & Requirements"}
+      - {url: "https://globalgoals.goldstandard.org/200-activity-requirements/",       section: "200 Activity Requirements"}
+      - {url: "https://globalgoals.goldstandard.org/300-contextual-requirements/",     section: "300 Contextual Requirements"}
+      - {url: "https://globalgoals.goldstandard.org/500-product-requirements/",        section: "500 Product Requirements"}
+      - {url: "https://globalgoals.goldstandard.org/governance/",                      section: "Governance"}
+    exclude_catalogs:
+      # 400-series = SDG Impact Quantification = methodologies (already in corpus)
+      - "https://globalgoals.goldstandard.org/400-sdg-impact-quantification/"
+    expected:
+      - {doc_id: "GS-101", title_match: "Principles", doc_type: core}
+      - {doc_id: "GS-103", title_match: "Safeguarding", doc_type: core}
+      - {doc_id: "GS-105", title_match: "Claims", doc_type: guideline}
+      - {doc_id: "GS-107", title_match: "Programme of Activity", doc_type: optional}
+      - {doc_id: "GS-108", title_match: "Microscale", doc_type: optional}
+      - {doc_id: "GS-113", title_match: "Validation and Verification", doc_type: core}
+      - {doc_id: "GS-119", title_match: "Paris Agreement Alignment", doc_type: core}
+
+  # ── CDM (UNFCCC) ───────────────────────────────────────────────────────────
+  # STUB — populate + verify during the CDM discovery phase. Incapsula WAF →
+  # discover_engine: playwright (headed) with snapshot fallback. Primary target:
+  # CDM-EB66-A23-GUID "General guidelines for SSC CDM methodologies" (confirms the
+  # AMS-I.C/I.E 45 MWth verify:true caps in data/manifests/cdm-ssc-thresholds.json).
+  CDM:
+    registry: CDM
+    authority: UNFCCC CDM EB
+    discover_engine: playwright   # headless first; fall back to snapshot if Incapsula blocks
+    fetch_engine: httpx
+    parse_mode: row               # doc identity from row text: title + Ver + CDM-EBxx-Ayy-CODE
+    pdf_host_prefix: "https://cdm.unfccc.int/"
+    catalogs:
+      - {url: "https://cdm.unfccc.int/Reference/Standards/index.html",   section: "Standards (incl. CDM Project Standard)"}
+      - {url: "https://cdm.unfccc.int/Reference/Procedures/index.html",  section: "Procedures (incl. Project Cycle Procedure)"}
+      - {url: "https://cdm.unfccc.int/Reference/Guidclarif/index.html",  section: "Guidelines & clarifications (incl. EB66-A23-GUID SSC)"}
+    exclude_catalogs: []
+    # Only coded docs have stable doc_ids; no-code docs (Project Standard / Cycle
+    # Procedure) get filename-stem ids that drift with version, so they aren't
+    # listed here (matched by title at review time instead).
+    expected:
+      - {doc_id: "CDM-EB66-A23-GUID", title_match: "General guidelines for SSC", doc_type: guideline}
+
+  # ── VCS (Verra) ────────────────────────────────────────────────────────────
+  # STUB — populate + verify during the VCS discovery phase. Cloudflare →
+  # discover_engine: snapshot preferred (Playwright best-effort). Targets:
+  # VCS Standard, VCS Program Guide, VCS Methodology Requirements, Reg & Issuance,
+  # Program Definitions.
+  VCS:
+    registry: VCS
+    authority: Verra
+    discover_engine: playwright   # test headless; fall back to snapshot if Cloudflare blocks
+    fetch_engine: httpx
+    parse_mode: doclink           # /documents/{slug}/ links 302-redirect to the PDF; keep latest version
+    pdf_host_prefix: "https://verra.org/documents/"
+    catalogs:
+      - {url: "https://verra.org/programs/verified-carbon-standard/vcs-program-details/", section: "VCS rules & requirements"}
+    exclude_catalogs: []
+    expected:
+      - {doc_id: "VCS-Standard", title_match: "VCS Standard", doc_type: standard}
+      - {doc_id: "VCS-Program-Guide", title_match: "Program Guide", doc_type: standard}
+      - {doc_id: "VCS-Methodology-Requirements", title_match: "Methodology Requirements", doc_type: standard}
+      - {doc_id: "VCS-Program-Definitions", title_match: "Program Definitions", doc_type: definitions}
+      - {doc_id: "VCS-Registration-and-Issuance-Process", title_match: "Registration and Issuance", doc_type: procedure}

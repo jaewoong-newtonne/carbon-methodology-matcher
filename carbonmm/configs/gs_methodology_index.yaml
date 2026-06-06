@@ -1,0 +1,254 @@
+version: '1.0'
+source: Gold Standard official list of eligible CDM and GS methodologies (spreadsheet)
+sheet: Gold Standard meths
+extracted_at: '2026-05-19T15:27:41Z'
+count: 45
+note: GS-native methodologies (registry=GS) eligible for Gold Standard projects. CDM
+  methodologies eligible-for-GS are covered separately by the published CDM methodology
+  booklet — no web scraping needed for CDM. Regenerate this YAML via build_gs_index.py when
+  the source spreadsheet is updated.
+entries:
+- row: 12
+  code_prefix: '402'
+  slug: 402-luf-agr-fm-soil-organic-carbon-framework-methodolgy
+  name: SOIL ORGANIC CARBON FRAMEWORK METHODOLOGY
+  url: https://globalgoals.goldstandard.org/402-luf-agr-fm-soil-organic-carbon-framework-methodolgy/
+- row: 13
+  code_prefix: 402-4
+  slug: 402-4-luf-agr-am-soc-module-zero-tillage
+  name: SOIL ORGANIC CARBON ACTIVITY MODULE FOR ZERO TILLAGE
+  url: https://globalgoals.goldstandard.org/402-4-luf-agr-am-soc-module-zero-tillage/
+- row: 14
+  code_prefix: 402-3
+  slug: 402-3-luf-agr-am-soc-module-biostimulants-for-soil-revitalisation
+  name: SOIL ORGANIC CARBON ACTIVITY MODULE – BIOSTIMULANTS FOR SOIL REVITALISATION
+  url: https://globalgoals.goldstandard.org/402-3-luf-agr-am-soc-module-biostimulants-for-soil-revitalisation/
+- row: 15
+  code_prefix: 402-5
+  slug: 402-5-luf-agr-am-soc-module-managed-pastures
+  name: SOIL ORGANIC CARBON ACTIVITY MODULE FOR ENHANCING CARBON STOCKS IN MANAGED
+    PASTURE
+  url: https://globalgoals.goldstandard.org/402-5-luf-agr-am-soc-module-managed-pastures/
+- row: 16
+  code_prefix: 402-2
+  slug: 402-2-luf-agr-am-soc-activity-module-application-organic-soil-improvers
+  name: SOIL ORGANIC CARBON ACTIVITY MODULE FOR APPLICATION OF ORGANIC SOIL IMPROVERS
+    FROM PULP AND PAPER MILL SLUDGES
+  url: https://globalgoals.goldstandard.org/402-2-luf-agr-am-soc-activity-module-application-organic-soil-improvers/
+- row: 17
+  code_prefix: 402-6
+  slug: 402-6-luf-agram-soc-module-cover-crops
+  name: SOIL ORGANIC CARBON ACTIVITY MODULE FOR COVER CROPS
+  url: https://globalgoals.goldstandard.org/402-6-luf-agram-soc-module-cover-crops/
+- row: 18
+  code_prefix: 402-1
+  slug: 402-1-luf-agr-am-soc-module-improved-tillage
+  name: 'SOIL ORGANIC CARBON ACTIVITY MODULE: INCREASING SOIL CARBON THROUGH IMPROVED
+    TILLAGE PRACTICES'
+  url: https://globalgoals.goldstandard.org/402-1-luf-agr-am-soc-module-improved-tillage/
+- row: 19
+  code_prefix: '403'
+  slug: 403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology
+  name: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+  url: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+- row: 21
+  code_prefix: '403'
+  slug: 403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology
+  name: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+  url: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+- row: 23
+  code_prefix: '406'
+  slug: 406-luf-agr-cdm-iiiau-emission-reduction-water-management-practice-in-rice-cultivation
+  name: REQUIREMENTS TO APPLY CDM METHODOLOGY “AMS – III AU” FOR GOLD STANDARD CERTIFICATION
+  url: https://globalgoals.goldstandard.org/406-luf-agr-cdm-iiiau-emission-reduction-water-management-practice-in-rice-cultivation/
+- row: 24
+  code_prefix: '403'
+  slug: 403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology
+  name: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+  url: https://globalgoals.goldstandard.org/403-luf-ar-methodology-ghgs-emission-reduction-and-sequestration-methodology/
+- row: 26
+  code_prefix: '404'
+  slug: 404-luf-agr-livestock-enteric-fermentation-in-dairy-cows-through-application-of-feed-supplements
+  name: REDUCING METHANE EMISSIONS FROM ENTERIC FERMENTATION IN DAIRY COWS THROUGH
+    APPLICATION OF FEED SUPPLEMENTS
+  url: https://globalgoals.goldstandard.org/404-luf-agr-livestock-enteric-fermentation-in-dairy-cows-through-application-of-feed-supplements/
+- row: 27
+  code_prefix: '405'
+  slug: 405-luf-agr-agriculture-smallholder-dairy-methodology
+  name: GOLD STANDARD AGRICULTURE SMALLHOLDER DAIRY METHODOLOGY
+  url: https://globalgoals.goldstandard.org/405-luf-agr-agriculture-smallholder-dairy-methodology/
+- row: 29
+  code_prefix: '443'
+  slug: 443-bcfw-methodology-sustainable-management-of-mangroves
+  name: SUSTAINABLE MANAGEMENT OF MANGROVES
+  url: https://globalgoals.goldstandard.org/443-bcfw-methodology-sustainable-management-of-mangroves/
+- row: 31
+  code_prefix: '428'
+  slug: 428-water-and-erosion-impact-assessment-of-sustainable-agricultural-land-management-projects
+  name: WATER AND EROSION IMPACT ASSESSMENT OF SUSTAINABLE AGRICULTURAL LAND MANAGEMENT
+    PROJECTS
+  url: https://globalgoals.goldstandard.org/428-water-and-erosion-impact-assessment-of-sustainable-agricultural-land-management-projects/
+- row: 35
+  code_prefix: '429'
+  slug: 429-ee-sws-emission-reductions-from-safe-drinking-water-supply
+  name: EMISSION REDUCTIONS FROM SAFE DRINKING WATER SUPPLY
+  url: https://globalgoals.goldstandard.org/429-ee-sws-emission-reductions-from-safe-drinking-water-supply/
+- row: 37
+  code_prefix: '407'
+  slug: 407-ee-ics-technologies-and-practices-to-displace-decentrilized-thermal-energy-tpddtec-consumption
+  name: REDUCED EMISSIONS FROM COOKING AND HEATING – TECHNOLOGIES AND PRACTICES TO
+    DSPLACE DECENTRALISED THERMAL ENERGY CONSUMPTION (TPDDTEC)
+  url: https://globalgoals.goldstandard.org/407-ee-ics-technologies-and-practices-to-displace-decentrilized-thermal-energy-tpddtec-consumption/
+- row: 38
+  code_prefix: '408'
+  slug: 408-ee-ics-simplified-methodology-for-efficient-cookstoves
+  name: THE GOLD STANDARD SIMPLIFIED METHODOLOGY FOR CLEAN AND EFFICIENT COOKSTOVES
+  url: https://globalgoals.goldstandard.org/408-ee-ics-simplified-methodology-for-efficient-cookstoves/
+- row: 39
+  code_prefix: '409'
+  slug: 409-ee-ics-alternative-ignition-technique-as-measure-to-improve-the-energy-efficiency-of-coalfires
+  name: PROGRAMME, BASELINE AND MONITORING METHODOLOGY FOR THE INTRODUCTION OF AN
+    ALTERNATIVE IGNITION TECHNIQUE AS MEASURE TO IMPROVE THE ENERGY EFFICIENCY OF
+    DOMESTIC COAL FIRES
+  url: https://globalgoals.goldstandard.org/409-ee-ics-alternative-ignition-technique-as-measure-to-improve-the-energy-efficiency-of-coalfires/
+- row: 40
+  code_prefix: '410'
+  slug: 410-fs-ics-thermal-energy-from-plant-oil-for-the-user-of-cooking-stoves
+  name: THERMAL ENERGY FROM PLANT OIL FOR THE USER OF COOKING STOVES
+  url: https://globalgoals.goldstandard.org/410-fs-ics-thermal-energy-from-plant-oil-for-the-user-of-cooking-stoves/
+- row: 41
+  code_prefix: null
+  slug: 411_hi_ics_methodology-to-estimate-and-verify-adalys-from-cleaner-household-air
+  name: METHODOLOGY TO ESTIMATE AND VERIFY ADALYS FROM CLEANER HOUSEHOLD AIR
+  url: https://globalgoals.goldstandard.org/411_hi_ics_methodology-to-estimate-and-verify-adalys-from-cleaner-household-air/
+- row: 42
+  code_prefix: null
+  slug: 430_ee_ics_methodology-for-metered-measured-energy-cooking-devices
+  name: METHODOLOGY FOR METERED & MEASURED ENERGY COOKING DEVICES
+  url: https://globalgoals.goldstandard.org/430_ee_ics_methodology-for-metered-measured-energy-cooking-devices/
+- row: 43
+  code_prefix: '412'
+  slug: 412-ics-slcp-black-carbon-and-co-emitted-species-due-to-the-replacement-of-less-efficient-cookstoves-with-improved-efficiency-cookstoves
+  name: GOLD STANDARD QUANTIFICATION OF CLIMATE RELATED EMISSION REDUCTIONS OF BLACK
+    CARBON AND CO-EMITTED SPECIES DUE TO THE REPLACEMENT OF LESS EFFICIENT COOKSTOVES
+    WITH IMPROVED EFFICIENCY COOKSTOVES
+  url: https://globalgoals.goldstandard.org/412-ics-slcp-black-carbon-and-co-emitted-species-due-to-the-replacement-of-less-efficient-cookstoves-with-improved-efficiency-cookstoves/
+- row: 45
+  code_prefix: '413'
+  slug: 413-ee-hh-scale-supply-distribution-of-efficient-light-bulbs-shower-heads-and-other-water-saving-devices-to-households
+  name: INDICATIVE PROGRAM, BASELINE AND MONITORING METHODOLOGY FOR THE LARGE SCALE
+    SUPPLY & DISTRIBUTION OF EFFICIENT LIGHT BULBS, SHOWER HEADS AND OTHER WATER SAVING
+    DEVICES TO HOUSEHOLDS
+  url: https://globalgoals.goldstandard.org/413-ee-hh-scale-supply-distribution-of-efficient-light-bulbs-shower-heads-and-other-water-saving-devices-to-households/
+- row: 46
+  code_prefix: '414'
+  slug: 414-ee-hh-thermal-performance-improvements-in-low-income-dwelling-structures
+  name: GOLD STANDARD METHODOLOGY FOR THERMAL PERFORMANCE IMPROVEMENTS IN LOW-INCOME
+    DWELLING STRUCTURES
+  url: https://globalgoals.goldstandard.org/414-ee-hh-thermal-performance-improvements-in-low-income-dwelling-structures/
+- row: 48
+  code_prefix: '434'
+  slug: 434-ee-two-and-three-wheeled-personal-transportation
+  name: TWO AND THREE WHEELED PERSONAL TRANSPORTATION
+  url: https://globalgoals.goldstandard.org/434-ee-two-and-three-wheeled-personal-transportation/
+- row: 53
+  code_prefix: '415'
+  slug: 415-fs-ecologically-sound-fuel-switch-to-biomass-with-reduced-energy-requirement
+  name: ECOLOGICALLY SOUND FUEL SWITCH TO BIOMASS WITH REDUCED ENERGY REQUIREMENT
+  url: https://globalgoals.goldstandard.org/415-fs-ecologically-sound-fuel-switch-to-biomass-with-reduced-energy-requirement/
+- row: 54
+  code_prefix: '416'
+  slug: 416-fs-fuel-switch-from-fossil-fuels-to-biomass-residues-in-boilers-for-heat-generation
+  name: FUEL SWITCH FROM FOSSIL FUELS TO BIOMASS RESIDUES IN BOILERS FOR HEAT GENERATION
+  url: https://globalgoals.goldstandard.org/416-fs-fuel-switch-from-fossil-fuels-to-biomass-residues-in-boilers-for-heat-generation/
+- row: 58
+  code_prefix: '417'
+  slug: 417-re-biofuel-biodiesel-from-waste-oil-fat-from-biogenic-origin-for-use-as-fuel
+  name: METHODOLOGY FOR BIODIESEL FROM WASTE OIL/FAT FROM BIOGENIC ORIGIN FOR USE
+    AS FUEL
+  url: https://globalgoals.goldstandard.org/417-re-biofuel-biodiesel-from-waste-oil-fat-from-biogenic-origin-for-use-as-fuel/
+- row: 59
+  code_prefix: '418'
+  slug: 418-re-suppressed-demand-methodology-micro-scale-electrification-and-energization
+  name: SUPPRESSED DEMAND METHODOLOGY MICRO-SCALE ELECTRIFICATION AND ENERGIZATION
+  url: https://globalgoals.goldstandard.org/418-re-suppressed-demand-methodology-micro-scale-electrification-and-energization/
+- row: 60
+  code_prefix: '419'
+  slug: 419-re-suppressed-demand-ssc-low-ghg-food-preservation
+  name: SUPPRESSED DEMAND SMALL-SCALE METHODOLOGY FOR LOW GHG FOOD PRESERVATION
+  url: https://globalgoals.goldstandard.org/419-re-suppressed-demand-ssc-low-ghg-food-preservation/
+- row: 61
+  code_prefix: '420'
+  slug: 420-re-suppressed-demand-ssc-energy-use-for-the-processing-of-agricultural-product-2
+  name: SUPPRESSED DEMAND SMALL-­SCALE METHODOLOGY FOR ENERGY USE FOR THE PROCESSING
+    OF AGRICULTURAL PRODUCTS
+  url: https://globalgoals.goldstandard.org/420-re-suppressed-demand-ssc-energy-use-for-the-processing-of-agricultural-product-2/
+- row: 65
+  code_prefix: '441'
+  slug: 441-wmh-reduction-in-methane-emissions-from-landfills-through-decentralised-organic-waste-processing
+  name: REDUCTION IN METHANE EMISSIONS FROM LANDFILLS THROUGH DECENTRALISED ORGANIC
+    WASTE PROCESSING
+  url: https://globalgoals.goldstandard.org/441-wmh-reduction-in-methane-emissions-from-landfills-through-decentralised-organic-waste-processing/
+- row: 66
+  code_prefix: '436'
+  slug: 436-wm-methodology-for-collection-of-macroalgae-to-avoid-emissions-from-decomposition
+  name: METHODOLOGY FOR COLLECTION OF MACROALGAE TO AVOID EMISSIONS FROM DECOMPOSITION
+  url: https://globalgoals.goldstandard.org/436-wm-methodology-for-collection-of-macroalgae-to-avoid-emissions-from-decomposition/
+- row: 67
+  code_prefix: '421'
+  slug: 421-wm-ghg-emission-reductions-from-manure-management-systems-and-municipal-solid-waste
+  name: GHG EMISSION REDUCTIONS FROM MANURE MANAGEMENT SYSTEMS AND MUNICIPAL SOLID
+    WASTE
+  url: https://globalgoals.goldstandard.org/421-wm-ghg-emission-reductions-from-manure-management-systems-and-municipal-solid-waste/
+- row: 68
+  code_prefix: '433'
+  slug: 433-ee-ics-methodology-for-animal-waste-managment-and-biogas-application
+  name: METHODOLOGY FOR ANIMAL MANURE MANAGEMENT AND BIOGAS USE FOR THERMAL ENERGY
+    GENERATION
+  url: https://globalgoals.goldstandard.org/433-ee-ics-methodology-for-animal-waste-managment-and-biogas-application/
+- row: 72
+  code_prefix: '444'
+  slug: 444-oth-methodology-for-reducing-methane-emissions-from-combustion-engine-exhaust
+  name: METHODOLOGY FOR REDUCING METHANE EMISSIONS FROM COMBUSTION ENGINE EXHAUST
+  url: https://globalgoals.goldstandard.org/444-oth-methodology-for-reducing-methane-emissions-from-combustion-engine-exhaust/
+- row: 73
+  code_prefix: '442'
+  slug: 442-ee-methodology-for-marine-fuels-and-biobunkers
+  name: METHODOLOGY FOR MARINE FUELS AND BIOBUNKERS
+  url: https://globalgoals.goldstandard.org/442-ee-methodology-for-marine-fuels-and-biobunkers/
+- row: 74
+  code_prefix: '422'
+  slug: 422-ee-shipping-retrofit-energy-efficiency-measures-in-shipping
+  name: RETROFIT ENERGY EFFICIENCY MEASURES IN SHIPPING
+  url: https://globalgoals.goldstandard.org/422-ee-shipping-retrofit-energy-efficiency-measures-in-shipping/
+- row: 75
+  code_prefix: '423'
+  slug: 423-ee-shipping-reducing-vessel-emissions-through-the-use-of-advanced-hull-coating
+  name: REDUCING VESSEL EMISSIONS THROUGH THE USE OF ADVANCED HULL COATINGS
+  url: https://globalgoals.goldstandard.org/423-ee-shipping-reducing-vessel-emissions-through-the-use-of-advanced-hull-coating/
+- row: 76
+  code_prefix: '424'
+  slug: 424-ee-shipping-ms-installation-of-flow-improvement-equipment-on-ships
+  name: INSTALLATION OF FLOW IMPROVEMENT EQUIPMENT ON SHIPS
+  url: https://globalgoals.goldstandard.org/424-ee-shipping-ms-installation-of-flow-improvement-equipment-on-ships/
+- row: 81
+  code_prefix: '426'
+  slug: 426-wbcs-sustainable-sugarcane-initiative-methodology-to-quantify-water-efficiency-outcomes-from-seedling-nurseries-sugarcane-initiative-methodology-to-quantify-water-efficiency-outcomes-from-seedling
+  name: SUSTAINABLE SUGARCANE INITIATIVE METHODOLOGY TO QUANTIFY WATER EFFICIENCY
+    OUTCOMES FROM SEEDLING NURSERIES
+  url: https://globalgoals.goldstandard.org/426-wbcs-sustainable-sugarcane-initiative-methodology-to-quantify-water-efficiency-outcomes-from-seedling-nurseries-sugarcane-initiative-methodology-to-quantify-water-efficiency-outcomes-from-seedling/
+- row: 85
+  code_prefix: '440'
+  slug: 440-ccs-methodology-for-biomass-fermentation-with-carbon-capture-and-geologic-storage
+  name: METHODOLOGY FOR BIOMASS FERMENTATION WITH CARBON CAPTURE AND GEOLOGIC STORAGE
+  url: https://globalgoals.goldstandard.org/440-ccs-methodology-for-biomass-fermentation-with-carbon-capture-and-geologic-storage/
+- row: 86
+  code_prefix: '432'
+  slug: 432-cdr-carbon-sequestration-through-accelerated-carbonation-of-concrete-aggregate
+  name: CARBON SEQUESTRATION THROUGH ACCELERATED CARBONATION OF CONCRETE AGGREGATE
+  url: https://globalgoals.goldstandard.org/432-cdr-carbon-sequestration-through-accelerated-carbonation-of-concrete-aggregate/
+- row: 90
+  code_prefix: null
+  slug: standards
+  name: ENERGY-SAVING THROUGH ELEVATOR REGENERATIVE POWER SYSTEM IMPLEMENTATION
+  url: https://globalgoals.goldstandard.org/standards/445_V1.0_EE_Energy-saving-through-Elevator-Regenerative-Power-System-Implementation.pdf

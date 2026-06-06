@@ -1,0 +1,1817 @@
+{
+  "model": "gpt-4o-mini",
+  "n": 226,
+  "results": [
+    {
+      "gid": "GS10529",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS10793",
+      "gt": "ACM0002",
+      "capacity_mw": 38.0,
+      "stated": true,
+      "quote": "a 38 MW solar PV project in Bobo Dioulasso",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS10794",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS10798",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS10869",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS10879",
+      "gt": "AMS-I.L.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11075",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11140",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11223",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11237",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "the project activity has a total installed capacity of 50 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS11251",
+      "gt": "ACM0002",
+      "capacity_mw": 90.0,
+      "stated": true,
+      "quote": "with a total capacity of 90 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS11314",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11351",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11397",
+      "gt": "AMS-I.A.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11414",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11415",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "with a total capacity of 50 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS11447",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11505",
+      "gt": "AMS-I.A.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11551",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11557",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11561",
+      "gt": "ACM0002",
+      "capacity_mw": 49.6,
+      "stated": true,
+      "quote": "the Salkhit wind farm has wind farm a capacity of 49.6 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS11891",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11892",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS11996",
+      "gt": "AMS-I.F.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12015",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12033",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12084",
+      "gt": "ACM0002",
+      "capacity_mw": 18.12996,
+      "stated": true,
+      "quote": "This is a 18.12996 MWp (15.16MWe) solar PV power project",
+      "unit_raw": "MWp"
+    },
+    {
+      "gid": "GS12137",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.3,
+      "stated": true,
+      "quote": "total installed output capacity of 12.3 MW (AC Capacity) / 15.943 MWp (DC Capacity)",
+      "unit_raw": "MW (AC Capacity) / MWp (DC Capacity)"
+    },
+    {
+      "gid": "GS12161",
+      "gt": "AMS-I.A.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12242",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "this project is 50 MW wind power project.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS12276",
+      "gt": "ACM0002",
+      "capacity_mw": 54.44,
+      "stated": true,
+      "quote": "its total install capacity is 54.44 MWp / 50 MWe.",
+      "unit_raw": "MWp / MWe"
+    },
+    {
+      "gid": "GS12357",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12358",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS1242",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12474",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12486",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS12624",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS2683",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS2691",
+      "gt": "ACM0002",
+      "capacity_mw": 81.0,
+      "stated": true,
+      "quote": "81MW Caparispisan Wind Energy Project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS6793",
+      "gt": "ACM0002",
+      "capacity_mw": 67.2,
+      "stated": true,
+      "quote": "generating electricity with capacity 67.2 MWm/60.0 MWe",
+      "unit_raw": "MWm/60.0 MWe"
+    },
+    {
+      "gid": "GS7105",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS7491",
+      "gt": "ACM0002",
+      "capacity_mw": 28.0,
+      "stated": true,
+      "quote": "total capacity of 28 MWm and 23 MWe",
+      "unit_raw": "MWm and MWe"
+    },
+    {
+      "gid": "GS7534",
+      "gt": "ACM0002",
+      "capacity_mw": 250.0,
+      "stated": true,
+      "quote": "250 MWp solar power project",
+      "unit_raw": "MWp"
+    },
+    {
+      "gid": "GS7550",
+      "gt": "ACM0002",
+      "capacity_mw": 80.0,
+      "stated": true,
+      "quote": "80 MW (2.5 MW x 32)",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7620",
+      "gt": "ACM0002",
+      "capacity_mw": 50.6,
+      "stated": true,
+      "quote": "50.6 MW Wind Power Project at Umrali, Gujarat by",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7622",
+      "gt": "ACM0002",
+      "capacity_mw": 25.2,
+      "stated": true,
+      "quote": "25.2 MWm/24 MWe wind power plant.",
+      "unit_raw": "MWm/24 MWe"
+    },
+    {
+      "gid": "GS7627",
+      "gt": "ACM0002",
+      "capacity_mw": 150.0,
+      "stated": true,
+      "quote": "this project activity is a 150 MW (80 MW + 70 MW) Solar PV technology-based grid connected large scale solar power generation project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7628",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS7630",
+      "gt": "ACM0002",
+      "capacity_mw": 44.0,
+      "stated": true,
+      "quote": "The total installed capacity of the project is 44 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7631",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": "",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-a07lh6z4KcOfCc0BmAVGoNzv on tokens per min ("
+    },
+    {
+      "gid": "GS7635",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS7664",
+      "gt": "ACM0002",
+      "capacity_mw": 250.0,
+      "stated": true,
+      "quote": "250 MW Solar PV Plant by Mahindra Renewables in",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7678",
+      "gt": "ACM0002",
+      "capacity_mw": 302.4,
+      "stated": true,
+      "quote": "totalling to 302.4 MW capacity Wind power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7720",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS7721",
+      "gt": "ACM0002",
+      "capacity_mw": 300.0,
+      "stated": true,
+      "quote": "300 MW Solar PV Plant by SBSR Power Cleantech",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7723",
+      "gt": "ACM0002",
+      "capacity_mw": 326.7,
+      "stated": true,
+      "quote": "totalling to 326.7 W (121\u00d72.7)1 capacity Wind power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7727",
+      "gt": "ACM0002",
+      "capacity_mw": 250.0,
+      "stated": true,
+      "quote": "250 MW Solar PV Plant at Bhainsada, Rajasthan",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "GS7733",
+      "gt": "ACM0002",
+      "capacity_mw": 48.9,
+      "stated": true,
+      "quote": "with total installed capacity of 48.9 MWm / 39 MWe.",
+      "unit_raw": "MWm / MWe"
+    },
+    {
+      "gid": "GS7735",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "GS7741",
+      "gt": "ACM0002",
+      "capacity_mw": 67.2,
+      "stated": true,
+      "quote": "67.2 MWm/51 MWe installed capacity",
+      "unit_raw": "MWm/51 MWe"
+    },
+    {
+      "gid": "GS7742",
+      "gt": "ACM0002",
+      "capacity_mw": 73.6,
+      "stated": true,
+      "quote": "G\u00fcney-1 WPP (hereafter referred to as the Proposed Project) with 73.6 MWm/70 MWe installed capacity",
+      "unit_raw": "MWm/70 MWe"
+    },
+    {
+      "gid": "GS7775",
+      "gt": "ACM0002",
+      "capacity_mw": 45.0,
+      "stated": true,
+      "quote": "total capacity of 45 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1018",
+      "gt": "ACM0002",
+      "capacity_mw": 111.9,
+      "stated": true,
+      "quote": "totalling to 111.9 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1019",
+      "gt": "ACM0002",
+      "capacity_mw": 41.56,
+      "stated": true,
+      "quote": "the total installed capacity of the project is 41.560 M",
+      "unit_raw": "M"
+    },
+    {
+      "gid": "VCS1028",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 5.5,
+      "stated": true,
+      "quote": "5.5 MW nominal capacity",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1077",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1081",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.0,
+      "stated": true,
+      "quote": "12 MW wind power generation project in the district of Jamnagar at Gujarat, India.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1090",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": "",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-a07lh6z4KcOfCc0BmAVGoNzv on tokens per min ("
+    },
+    {
+      "gid": "VCS1120",
+      "gt": "ACM0002",
+      "capacity_mw": 50.4,
+      "stated": true,
+      "quote": "50.4 MW wind farm in the state of Rajasthan in India.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1121",
+      "gt": "ACM0018",
+      "capacity_mw": 30.0,
+      "stated": true,
+      "quote": "one 30MW steam turbine generator",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1134",
+      "gt": "ACM0002",
+      "capacity_mw": 52.5,
+      "stated": true,
+      "quote": "The cumulative capacity of the project activity is 52.50 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1138",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 9.0,
+      "stated": true,
+      "quote": "9 MW Wind Energy Farm at Jodhpur Rajasthan by HZL",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1139",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 15.0,
+      "stated": true,
+      "quote": "15 MW Wind energy farm at Gopalpura, Karnataka by HZL",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1155",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 14.7,
+      "stated": true,
+      "quote": "The total planned capacity of the project activity is 14.70 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1159",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 14.7,
+      "stated": true,
+      "quote": "\u201c14.7 MW Bundled Wind Power Project in the state of Maharashtra and Rajasthan, India.\u201d",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1163",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1167",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 8.0,
+      "stated": true,
+      "quote": "the project involves the installation of a high pressure boiler (67 kg/cm2, 4900C, 60 tonnes per hour capacity) and condensing turbine generator of 8MW power generation capacity.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1187",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1191",
+      "gt": "ACM0002",
+      "capacity_mw": 52.5,
+      "stated": true,
+      "quote": "52.5MW wind power project in the state of Gujarat in India.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1195",
+      "gt": "ACM0002",
+      "capacity_mw": 42.0,
+      "stated": true,
+      "quote": "greenfield 42MW wind Power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS120",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 303.09,
+      "stated": true,
+      "quote": "303\u2019090",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1203",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 8.4,
+      "stated": true,
+      "quote": "Suzlon 8.40 MW Wind Power Project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1206",
+      "gt": "ACM0002",
+      "capacity_mw": 25.8,
+      "stated": true,
+      "quote": "a maximum of 25.8 MW of installed capacity",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1214",
+      "gt": "ACM0002",
+      "capacity_mw": 63.0,
+      "stated": true,
+      "quote": "planning to set up 63MW wind power project at Vajrakarur village",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1241",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1242",
+      "gt": "ACM0002",
+      "capacity_mw": 49.5,
+      "stated": true,
+      "quote": "Inner Mongolia Helin Shimenzi 49.5MW Wind Power Project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1257",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1258",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1293",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 14.4,
+      "stated": true,
+      "quote": "14.4 MW Grid Connected Wind Power Project of Vaibhavlaxmi Clean Energy",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1304",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1319",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1364",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1387",
+      "gt": "ACM0006",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS139",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 6.0,
+      "stated": true,
+      "quote": "installed capacity of 6,000 KW",
+      "unit_raw": "KW"
+    },
+    {
+      "gid": "VCS1418",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS144",
+      "gt": "ACM0002",
+      "capacity_mw": 180.0,
+      "stated": true,
+      "quote": "capacity upgrade of Gunung Salak Geothermal Power Plant from 3 x 55 MW to 3 x 60 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1445",
+      "gt": "ACM0002",
+      "capacity_mw": 40.0,
+      "stated": true,
+      "quote": "The total installed capacity will be 40MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1464",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS147",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 9.75,
+      "stated": true,
+      "quote": "a total Installed capacity of 9.75 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1478",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1480",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1481",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1483",
+      "gt": "ACM0002",
+      "capacity_mw": 15.2,
+      "stated": true,
+      "quote": "a greenfield 15.2 MW solar photovoltaic power plant",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1519",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1521",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1539",
+      "gt": "ACM0006",
+      "capacity_mw": 30.0,
+      "stated": true,
+      "quote": "Gangakhed Sugar & Energy Private Ltd (GSEPL) 30 MW Bagasse Based Co-",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1546",
+      "gt": "ACM0002",
+      "capacity_mw": 61.5,
+      "stated": true,
+      "quote": "the final electricity generation capacity will be 61.5 MWm/54MWe",
+      "unit_raw": "MWm/54MWe"
+    },
+    {
+      "gid": "VCS1551",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1554",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1587",
+      "gt": "ACM0002",
+      "capacity_mw": 70.0,
+      "stated": true,
+      "quote": "Fatma WEPP with 70 MW installed capacity in central district of Mu\u011fla province, Turkey.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS164",
+      "gt": "ACM0002",
+      "capacity_mw": 18.2,
+      "stated": true,
+      "quote": "the installation of a small hydroelectric plant with an installed capacity of 18.2MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1671",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1685",
+      "gt": "ACM0002",
+      "capacity_mw": 25.0,
+      "stated": true,
+      "quote": "25 MW PV SOLAR POWER PROJECT AT CHARANKA IN GUJARAT",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1733",
+      "gt": "ACM0002",
+      "capacity_mw": 30.0,
+      "stated": true,
+      "quote": "Nouakchott 30 MW wind power plant",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1741",
+      "gt": "ACM0002",
+      "capacity_mw": 15.013,
+      "stated": true,
+      "quote": "15.013 MW Hydroelectric Power Plant",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1759",
+      "gt": "AMS-I.F.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1774",
+      "gt": "ACM0002",
+      "capacity_mw": 20.03,
+      "stated": true,
+      "quote": "the construction and operation of a solar photovoltaic plant of 20.03 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1797",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1854",
+      "gt": "ACM0002",
+      "capacity_mw": 20.0,
+      "stated": true,
+      "quote": "20 MW (22 MWDC) SKCIL SOLAR POWER PLANT PROJECT",
+      "unit_raw": "MWAC"
+    },
+    {
+      "gid": "VCS1861",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 3.5,
+      "stated": true,
+      "quote": "3.5 MW MANUNI HYDRO ELECTRIC PROJECT IN HIMANCHAL PRADESH",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1877",
+      "gt": "ACM0002",
+      "capacity_mw": 24.75,
+      "stated": true,
+      "quote": "a run-of-river 24.75 MW (2 * 12.375 MW) hydro power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1904",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS192",
+      "gt": "ACM0002",
+      "capacity_mw": 48.0,
+      "stated": true,
+      "quote": "The Houqiao Hydropower Station had an installed capacity of 48MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1945",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1949",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1950",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1968",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1974",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "the installation and operation of Srepok 1 solar power plant with peak capacity of 50 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS1997",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS1998",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2004",
+      "gt": "ACM0002",
+      "capacity_mw": 200.0,
+      "stated": true,
+      "quote": "installed capacity of around 200MW;",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2014",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "50 MW SOLAR PROJECT BY AVAADA IN UP (INDIA)",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2017",
+      "gt": "ACM0002",
+      "capacity_mw": 150.0,
+      "stated": true,
+      "quote": "Karnataka Pavagada-II Solar Project by Avaada (150 MW)",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2019",
+      "gt": "ACM0002",
+      "capacity_mw": 100.0,
+      "stated": true,
+      "quote": "100 MW grid connected Wind Power project in Jamnagar Gujarat, India",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2039",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2042",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2043",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2053",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2057",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2069",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2095",
+      "gt": "ACM0002",
+      "capacity_mw": 46.2,
+      "stated": true,
+      "quote": "the established capacity of D\u00fczce-Aksu HEPP is 46.2 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2242",
+      "gt": "ACM0002",
+      "capacity_mw": 50.4,
+      "stated": true,
+      "quote": "a wind farm of aggregate capacity 50.4 MW in India.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2243",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2245",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2248",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS2323",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 7.0,
+      "stated": true,
+      "quote": "7 MW Bundled Hydro power project at Himachal Pradesh of Raajratna",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2592",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS26",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.9,
+      "stated": true,
+      "quote": "The hydropower station will have a capacity of 12.9 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS260",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 7.9,
+      "stated": true,
+      "quote": "the total capacity has been reduced to 7.9 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS292",
+      "gt": "ACM0002",
+      "capacity_mw": 150.0,
+      "stated": true,
+      "quote": "150 MW grid connected Wind Power based Electricity generation project in Gujarat,",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS2989",
+      "gt": "AMS-I.B.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS301",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS304",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS308",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 2.45,
+      "stated": true,
+      "quote": "2.45MW Wind Power Project in Rajasthan, India",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS321",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 6.2,
+      "stated": true,
+      "quote": "6.2 MW Bundled Wind Project in Tamil Nadu, Rajasthan and Maharashtra by Interocean.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS359",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 9.2,
+      "stated": true,
+      "quote": "9.20 MW Bundled grid-connected wind electricity generation project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS3662",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 15.0,
+      "stated": true,
+      "quote": "15 MW Nam Hinboun Downstream Hydropower Project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS372",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": "",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o-mini in organization org-a07lh6z4KcOfCc0BmAVGoNzv on tokens per min ("
+    },
+    {
+      "gid": "VCS377",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 11.6,
+      "stated": true,
+      "quote": "11.60 MW Bundled grid-connected wind electricity generation project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS380",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS381",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS404",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS418",
+      "gt": "ACM0002",
+      "capacity_mw": 49.3,
+      "stated": true,
+      "quote": "for a total installed capacity of 49.3 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS437",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.0,
+      "stated": true,
+      "quote": "having a total capacity of 12 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS4389",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS459",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 13.6,
+      "stated": true,
+      "quote": "total installed capacity of 13.6 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS464",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 6.0,
+      "stated": true,
+      "quote": "RPML proposes to install a 6 MW cogeneration facility to meet the thermal and electrical requirements of the company.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS470",
+      "gt": "ACM0002",
+      "capacity_mw": 49.5,
+      "stated": true,
+      "quote": "providing a total capacity of 49.5MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS475",
+      "gt": "ACM0002",
+      "capacity_mw": 49.5,
+      "stated": true,
+      "quote": "for a total installed capacity of 49.5 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS495",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 8.75,
+      "stated": true,
+      "quote": "Positive Climate Care 8.75 MW bundled Wind Power Project Activity",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS496",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS499",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 4.67,
+      "stated": true,
+      "quote": "Positive Climate Care 4.67 MW Bundled Grid connected Wind Power Project Activity",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS501",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS505",
+      "gt": "ACM0002",
+      "capacity_mw": 49.3,
+      "stated": true,
+      "quote": "58 sets of wind turbines with a total capacity of 49.3MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS51",
+      "gt": "ACM0002",
+      "capacity_mw": 29.7,
+      "stated": true,
+      "quote": "29.70 MW wind power project in Karnataka, India",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS525",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 5.1,
+      "stated": true,
+      "quote": "The total installed capacity of the project is 5.1 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS536",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS537",
+      "gt": "ACM0002",
+      "capacity_mw": 50.4,
+      "stated": true,
+      "quote": "totalling an installed capacity of 50.4 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS542",
+      "gt": "ACM0002",
+      "capacity_mw": 22.35,
+      "stated": true,
+      "quote": "The project is a bundled project of 22.35 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS546",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS547",
+      "gt": "ACM0002",
+      "capacity_mw": 25.0,
+      "stated": true,
+      "quote": "25 MW wind energy project aggregated by Resurge Energy Private Limited.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS548",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS56",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "50MW run-of-river hydropower project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS564",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.0,
+      "stated": true,
+      "quote": "12 MW Grid connected Wind Power Project, Gujarat State, India.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS577",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS624",
+      "gt": "ACM0006",
+      "capacity_mw": 15.0,
+      "stated": true,
+      "quote": "15 MW Biomass Residue Based Power Project at Ghazipur, India",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS625",
+      "gt": "ACM0002",
+      "capacity_mw": 21.05,
+      "stated": true,
+      "quote": "21.05 MW bundled wind energy project in Maharashtra",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS631",
+      "gt": "ACM0002",
+      "capacity_mw": 13.25,
+      "stated": true,
+      "quote": "The project activity entails installation of wind turbines having a total capacity of 13.25 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS656",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS659",
+      "gt": "ACM0002",
+      "capacity_mw": 20.4,
+      "stated": true,
+      "quote": "for a total installed capacity of 20.4 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS660",
+      "gt": "ACM0002",
+      "capacity_mw": 22.1,
+      "stated": true,
+      "quote": "for a total installed capacity of 22.1 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS666",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 13.0,
+      "stated": true,
+      "quote": "Total installed capacity of the Project will be 13 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS676",
+      "gt": "ACM0002",
+      "capacity_mw": 33.9,
+      "stated": true,
+      "quote": "33.9 MW Bundled Wind Power project in states of Karnataka and Tamil Nadu",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS682",
+      "gt": "AMS-I.D.",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS701",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 14.85,
+      "stated": true,
+      "quote": "14.85 MW wind power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS708",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS72",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 12.0,
+      "stated": true,
+      "quote": "The total power capacity, therefore, of the proposed project activity is 12MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS731",
+      "gt": "ACM0002",
+      "capacity_mw": 17.1,
+      "stated": true,
+      "quote": "generation of 17.1 MW of electricity from installation of Wind Electric Generators",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS740",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS741",
+      "gt": "ACM0002",
+      "capacity_mw": 12.5,
+      "stated": true,
+      "quote": "Capacity (MW)",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS745",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS747",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS753",
+      "gt": "ACM0002",
+      "capacity_mw": 92.96,
+      "stated": true,
+      "quote": "a Greenfield 92.96 MWm run-of-river hydroelectric power plant",
+      "unit_raw": "MWm"
+    },
+    {
+      "gid": "VCS791",
+      "gt": "ACM0002",
+      "capacity_mw": 19.2,
+      "stated": true,
+      "quote": "providing a total capacity of 19.2 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS801",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 10.0,
+      "stated": true,
+      "quote": "10 MW biomass based power generation project by Rake Power Limited at Ramtek, Nagpur.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS809",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 9.75,
+      "stated": true,
+      "quote": "The project activity involves the implementation of 9.75 MW capacity wind power project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS813",
+      "gt": "ACM0002",
+      "capacity_mw": 50.0,
+      "stated": true,
+      "quote": "for a total installed capacity of 50MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS819",
+      "gt": "AM0026",
+      "capacity_mw": 6.3,
+      "stated": true,
+      "quote": "installed total power of 6.3 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS823",
+      "gt": "ACM0002",
+      "capacity_mw": 51.0,
+      "stated": true,
+      "quote": "Total installed capacity of the Project will be 51 MW, consisting of three 17MW turbines.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS84",
+      "gt": "ACM0002",
+      "capacity_mw": 49.5,
+      "stated": true,
+      "quote": "The total installed capacity of the proposed project is 49.5 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS840",
+      "gt": "ACM0002",
+      "capacity_mw": 21.6,
+      "stated": true,
+      "quote": "21.6 MW Wind Power Project",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS853",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 5.0,
+      "stated": true,
+      "quote": "The proposed CDM project activity, being undertaken by UIC Udyog Limited is a wind power project of 5 MW capacity.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS855",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 3.0,
+      "stated": true,
+      "quote": "The project activity involves installation of 2 WTGs of total 3 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS895",
+      "gt": "ACM0002",
+      "capacity_mw": 20.8,
+      "stated": true,
+      "quote": "20.8 MW Grid connected wind electricity generation project at Dhule, Maharashtra.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS896",
+      "gt": "ACM0002",
+      "capacity_mw": 855.0,
+      "stated": true,
+      "quote": "with an installed capacity of 855 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS91",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 10.0,
+      "stated": true,
+      "quote": "the Project is a newly built hydropower project with 10 MW installed capacity.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS910",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS912",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS914",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 6.764,
+      "stated": true,
+      "quote": "The total installed capacity of the Project Activity is 6.764 MWm",
+      "unit_raw": "MWm"
+    },
+    {
+      "gid": "VCS921",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    },
+    {
+      "gid": "VCS925",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 6.2,
+      "stated": true,
+      "quote": "The project activity would generate 6.2 MW of electricity",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS926",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 9.6,
+      "stated": true,
+      "quote": "a total generating capacity of 9.6 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS927",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 13.75,
+      "stated": true,
+      "quote": "13.75 MW wind power project in Davangere, Karnataka, India",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS945",
+      "gt": "ACM0002",
+      "capacity_mw": 120.0,
+      "stated": true,
+      "quote": "providing a total capacity of 120 MW.",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS974",
+      "gt": "AMS-I.D.",
+      "capacity_mw": 5.4,
+      "stated": true,
+      "quote": "(2 x 2.7) 5.4 MW",
+      "unit_raw": "MW"
+    },
+    {
+      "gid": "VCS986",
+      "gt": "ACM0002",
+      "capacity_mw": null,
+      "stated": false,
+      "quote": "",
+      "unit_raw": ""
+    }
+  ]
+}

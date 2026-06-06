@@ -1,0 +1,2248 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-03",
+  "prediction_blind": true,
+  "source": "CDM small-scale (SSC) thresholds. TYPE-LEVEL caps (15 MW / 60 GWh-yr / 60 ktCO2e-yr) confirmed against the CDM Project Standard / SSC modalities (UNFCCC, web-verified 2026-06-03). Per-category Type-I caps from CDM SSC modalities; entries flagged \"verify\" (thermal I.C/I.E = 45 MWth) to be confirmed against \"General guidelines for SSC CDM methodologies\" CDM-EB66-A23-GUID v25 (cdm.unfccc.int; site behind Incapsula -> fetch via browser). Public regulatory thresholds = prediction-blind. SSC caps reconciled 2026-06-03 vs CDM-reg_stan04_v03.0 v03.0: 2 confirmed, 0 conflict.",
+  "types": {
+    "I": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW"
+    },
+    "II": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)"
+    },
+    "III": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER"
+    }
+  },
+  "scale_fit_logic": "Sibling pair {large ACM/AM, small AMS-X}: given extracted PDD capacity C and AMS-X cap T -> C<=T => small(AMS) eligible; C>T => AMS ineligible => large variant. SOFT signal unless C is high-confidence (per adversarial review: no hard-exclude on low-confidence extraction). NOTE: resolves SCALE axis only; registry-variant (same-scale) is NOT disambiguated by SSC caps.",
+  "thresholds": {
+    "ACM0001": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0002": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0003": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0004": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0005": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0006": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0007": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0008": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0009": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0010": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0011": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0012": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0013": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0014": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0015": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0016": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0017": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0018": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0019": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0020": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0021": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0022": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0023": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0024": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0025": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ACM0026": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0001": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0002": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0003": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0004": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0005": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0006": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0007": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0008": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0009": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0010": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0011": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0012": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0013": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0014": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0015": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0016": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0017": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0018": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0019": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0020": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0021": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0022": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0023": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0024": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0025": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0026": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0027": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0028": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0029": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0030": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0031": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0032": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0033": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0034": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0035": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0036": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0037": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0038": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0039": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0040": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0041": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0042": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0043": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0044": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0045": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0046": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0047": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0048": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0049": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0050": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0051": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0052": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0053": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0054": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0055": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0056": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0057": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0058": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0059": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0060": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0061": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0062": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0063": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0064": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0065": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0066": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0067": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0068": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0069": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0070": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0071": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0072": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0073": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0074": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0075": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0076": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0077": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0078": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0079": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0080": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0081": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0082": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0083": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0084": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0085": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0086": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0087": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0088": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0089": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0090": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0091": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0092": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0093": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0094": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0095": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0096": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0097": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0098": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0099": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0100": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0101": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0102": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0103": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0104": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0105": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0106": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0107": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0108": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0109": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0110": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0111": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0112": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0113": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0114": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0115": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0116": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0117": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0118": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0119": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0120": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0121": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0122": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0123": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0124": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AM0125": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AMS-I.A.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "electricity for user/mini-grid"
+    },
+    "AMS-I.B.": {
+      "label": "Renewable energy",
+      "dimension": "mechanical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "mechanical energy for user"
+    },
+    "AMS-I.C.": {
+      "label": "Renewable energy",
+      "dimension": "thermal-capacity",
+      "cap": 45.0,
+      "unit": "MWth",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "thermal energy for user",
+      "verify": false,
+      "provenance": {
+        "guidance_doc_id": "CDM-reg_stan04_v03.0",
+        "doc_version": "03.0",
+        "confirmed_at": "2026-06-03",
+        "confirmed_cap": 45.0,
+        "unit": "MWth"
+      }
+    },
+    "AMS-I.D.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "grid-connected renewable electricity"
+    },
+    "AMS-I.E.": {
+      "label": "Renewable energy",
+      "dimension": "thermal-capacity",
+      "cap": 45.0,
+      "unit": "MWth",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "non-renewable->renewable thermal switch",
+      "verify": false,
+      "provenance": {
+        "guidance_doc_id": "CDM-reg_stan04_v03.0",
+        "doc_version": "03.0",
+        "confirmed_at": "2026-06-03",
+        "confirmed_cap": 45.0,
+        "unit": "MWth"
+      }
+    },
+    "AMS-I.F.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small",
+      "scope": "renewable electricity captive/grid"
+    },
+    "AMS-I.G.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.H.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.I.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.J.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.K.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.L.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-I.M.": {
+      "label": "Renewable energy",
+      "dimension": "electrical-capacity",
+      "cap": 15.0,
+      "unit": "MW",
+      "note": "electricity output capacity <= 15 MW",
+      "type": "I",
+      "scale_class": "small"
+    },
+    "AMS-II.A.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.B.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.C.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.D.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.E.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.F.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.G.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.H.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.I.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.J.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.K.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.L.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.M.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.N.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.O.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.P.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.Q.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.R.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.S.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-II.T.": {
+      "label": "Energy efficiency",
+      "dimension": "annual-energy-savings",
+      "cap": 60.0,
+      "unit": "GWh/yr",
+      "note": "<= 60 GWh/yr energy savings (supply-side ~<=15 MW-equiv)",
+      "type": "II",
+      "scale_class": "small"
+    },
+    "AMS-III.A.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AA.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AB.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AC.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AD.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AE.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AF.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AG.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AH.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AI.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AJ.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AK.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AL.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AM.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AN.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AO.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AP.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AQ.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AR.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AS.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AT.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AU.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AV.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AW.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AX.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.AY.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.B.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BA.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BB.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BC.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BD.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BE.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BF.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BG.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BH.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BI.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BJ.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BK.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BL.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BM.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BN.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BO.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BP.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BQ.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BR.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.BS.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.C.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.D.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.E.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.F.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.G.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.H.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.I.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.J.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.K.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.L.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.M.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.N.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.O.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.P.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.Q.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.R.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.S.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.T.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.U.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.V.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.W.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.X.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.Y.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AMS-III.Z.": {
+      "label": "Other (incl. methane, waste, transport)",
+      "dimension": "annual-emission-reductions",
+      "cap": 60.0,
+      "unit": "ktCO2e/yr",
+      "note": "<= 60 ktCO2e/yr ER",
+      "type": "III",
+      "scale_class": "small"
+    },
+    "AR-ACM0001": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-ACM0002": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-ACM0003": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0001": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0002": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0003": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0004": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0005": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0006": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0007": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0008": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0009": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0011": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0012": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0013": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "AR-AM0014": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0024": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0025": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0026": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0027": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0028": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0030": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0031": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0032": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0033": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0034": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0036": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0037": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0038": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    },
+    "ARNM0039": {
+      "scale_class": "large",
+      "dimension": "electrical-capacity",
+      "cap": null,
+      "unit": null,
+      "note": "large-scale: eligible above the SSC small-scale threshold (no SSC cap)"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+metadata:
+  generated_at: '2026-05-19'
+  source: the GS QA corpus T1 records with source_field='methodology_applied'
+  total_projects_with_label: 138
+  total_resolved: 137
+  total_distinct_codes: 34
+  top_30_coverage_pct: 97.1
+methodologies:
+- rank: 1
+  registry: CDM
+  code_or_title: ACM0002
+  project_count: 53
+  label_type: coded
+- rank: 2
+  registry: GS
+  code_or_title: TPDDTEC
+  project_count: 23
+  label_type: coded
+- rank: 3
+  registry: CDM
+  code_or_title: ACM0001
+  project_count: 7
+  label_type: coded
+- rank: 4
+  registry: CDM
+  code_or_title: AMS-I.D
+  project_count: 6
+  label_type: coded
+- rank: 5
+  registry: GS-native
+  code_or_title: gold standard simplified methodology for efficient cookstoves, february
+    2013
+  project_count: 5
+  label_type: verbose-title
+- rank: 6
+  registry: CDM
+  code_or_title: AMS-I.C
+  project_count: 4
+  label_type: coded
+- rank: 7
+  registry: CDM
+  code_or_title: AMS-I.E
+  project_count: 4
+  label_type: coded
+- rank: 8
+  registry: GS-native
+  code_or_title: methodology for animal manure management and biogas use for thermal
+    energy generation (version 1.1)
+  project_count: 3
+  label_type: verbose-title
+- rank: 9
+  registry: CDM
+  code_or_title: AMS-I.L
+  project_count: 3
+  label_type: coded
+- rank: 10
+  registry: CDM
+  code_or_title: AMS-I.F
+  project_count: 2
+  label_type: coded
+- rank: 11
+  registry: GS-native
+  code_or_title: the gold standard simplified methodology for clean and efficient
+    cookstoves,
+  project_count: 2
+  label_type: verbose-title
+- rank: 12
+  registry: GS-native
+  code_or_title: the gold standard simplified methodology for efficient cookstoves,
+  project_count: 2
+  label_type: verbose-title
+- rank: 13
+  registry: GS-native
+  code_or_title: methodology for emission reductions from safe drinking water supply
+  project_count: 2
+  label_type: verbose-title
+- rank: 14
+  registry: GS-native
+  code_or_title: emission reductions from safe drinking water supplies
+  project_count: 1
+  label_type: verbose-title
+- rank: 15
+  registry: GS-native
+  code_or_title: methodology for animal manure management and biogas use for thermal
+    energy generation v1.1  --- ---
+  project_count: 1
+  label_type: verbose-title
+- rank: 16
+  registry: GS-native
+  code_or_title: methodology for emission reductions from  safe drinking water supply,
+  project_count: 1
+  label_type: verbose-title
+- rank: 17
+  registry: GS-native
+  code_or_title: simplified methodology for efficient cookstoves version 1.1  ---
+    ---
+  project_count: 1
+  label_type: verbose-title
+- rank: 18
+  registry: CDM
+  code_or_title: AMS-III.C
+  project_count: 1
+  label_type: coded
+- rank: 19
+  registry: CDM
+  code_or_title: AMS-III.AR
+  project_count: 1
+  label_type: coded
+- rank: 20
+  registry: GS-native
+  code_or_title: 'methodology for emission reductions from safe
+
+    drinking water supply, version 1.0,'
+  project_count: 1
+  label_type: verbose-title
+- rank: 21
+  registry: GS-native
+  code_or_title: afforestation/reforestation ghg emissions reduction & sequestration
+    methodology v2.1 luf ar methodology soil carbon tool
+  project_count: 1
+  label_type: verbose-title
+- rank: 22
+  registry: GS-native
+  code_or_title: methodology for emission reductions from safe drinking water supply
+    (version 1.0)
+  project_count: 1
+  label_type: verbose-title
+- rank: 23
+  registry: CDM
+  code_or_title: AMS-III.D
+  project_count: 1
+  label_type: coded
+- rank: 24
+  registry: GS-native
+  code_or_title: afforestation/reforestation ghg emissions reduction & sequestration
+    methodology v2.1 luf ar methodology soil carbon tool v1.0 a/r methodological tool
+    "combined tool to identify the baseline scenario and demonstrate additionality
+    in a/r cdm project activities" (version 01)
+  project_count: 1
+  label_type: verbose-title
+- rank: 25
+  registry: GS-native
+  code_or_title: 'gs methodology for emissions reduction from
+
+    safe drinking water supply (v 1.0)'
+  project_count: 1
+  label_type: verbose-title
+- rank: 26
+  registry: GS-native
+  code_or_title: 'voluntary gold standard methodology: "methodology for emission reductions
+    from safe drinking water supply" version 1.0 publication date: 03 may 2021.'
+  project_count: 1
+  label_type: verbose-title
+- rank: 27
+  registry: GS-native
+  code_or_title: gold standard afforestation/reforestation (a/r) ghg emissions reduction
+    & sequestration methodology
+  project_count: 1
+  label_type: verbose-title
+- rank: 28
+  registry: CDM
+  code_or_title: AMS-III.AV
+  project_count: 1
+  label_type: coded
+- rank: 29
+  registry: GS-native
+  code_or_title: • afforestation/reforestation ghg emissions reduction & sequestration
+    methodology v2.0 • luf ar methodology soil carbon tool v1.0 • a/r methodological
+    tool "combined tool to identify the baseline scenario and demonstrate additionality
+    in a/r cdm project activities" (version 01)
+  project_count: 1
+  label_type: verbose-title
+- rank: 30
+  registry: CDM
+  code_or_title: AMS-II.G
+  project_count: 1
+  label_type: coded
+notes:
+- ACM0002 (grid-connected RE) dominates ~50% of issued GS projects.
+- 'TPDDTEC (GS native cookstove/water purification) is #2 with ~25 projects.'
+- Verbose-title labels are GS-native methodologies that need title→GS-VER code normalization.
+- Verra (VM/VMD) zero matches — the GS QA corpus is a GS-only universe.
+- Top-15 codes cover 100% of coded mentions; long tail is multiple verbose titles.

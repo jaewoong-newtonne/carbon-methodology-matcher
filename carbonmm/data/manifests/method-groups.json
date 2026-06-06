@@ -1,0 +1,5236 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-29",
+  "prediction_blind": true,
+  "doc": "Mitigation-activity equivalence classes. Keys derived ONLY from official catalog titles + corpus PDF-header markers; never from predictions. Collapses scale/registry variants of the same activity. See eval/build_method_groups.py GROUP_RULES (frozen) + appendix table.",
+  "n_codes": 594,
+  "n_named_groups": 16,
+  "group_labels": {
+    "G01": "Grid-connected renewable electricity generation",
+    "G02": "Landfill gas capture & flaring",
+    "G03": "Thermal energy: cooking/heating, biomass fuel-switch & efficiency",
+    "G04": "Afforestation & reforestation",
+    "G05": "Forest conservation / REDD+ / IFM / avoided conversion",
+    "G06": "Manure & livestock waste management",
+    "G07": "Wastewater methane treatment",
+    "G08": "Solid-waste treatment / composting / recycling / waste-gas-to-power",
+    "G09": "Demand-side & appliance energy efficiency / lighting",
+    "G10": "Transport / electric vehicles / modal shift",
+    "G11": "Coal-mine / coal-bed / fugitive fuel methane",
+    "G12": "Agriculture / rice / grassland land management",
+    "G13": "Cement / concrete / pavement materials",
+    "G14": "Fossil-fuel switch / fossil grid electricity",
+    "G15": "Safe drinking water supply",
+    "G16": "Industrial gas destruction (ODS / HFC / SF6)"
+  },
+  "rules": [
+    {
+      "rule_id": "R01",
+      "group_id": "G02",
+      "kind": "title",
+      "pattern": "landfill"
+    },
+    {
+      "rule_id": "R02",
+      "group_id": "G11",
+      "kind": "title",
+      "pattern": "coal\\s*(mine|bed)|coal mines|leak detection|fugitive (methane|emission)"
+    },
+    {
+      "rule_id": "R03",
+      "group_id": "G07",
+      "kind": "title",
+      "pattern": "waste\\s*water"
+    },
+    {
+      "rule_id": "R04",
+      "group_id": "G06",
+      "kind": "title",
+      "pattern": "manure|livestock"
+    },
+    {
+      "rule_id": "R05",
+      "group_id": "G08",
+      "kind": "title",
+      "pattern": "waste treatment|composting|solid waste|waste gas|recycling of materials|recovery and recycling"
+    },
+    {
+      "rule_id": "R06",
+      "group_id": "G04",
+      "kind": "title",
+      "pattern": "afforest|reforest"
+    },
+    {
+      "rule_id": "R07",
+      "group_id": "G05",
+      "kind": "title",
+      "pattern": "deforestation|\\bredd|forest management|avoided ecosystem|conversion from logged"
+    },
+    {
+      "rule_id": "R08",
+      "group_id": "G12",
+      "kind": "title",
+      "pattern": "agricultural land|\\brice\\b|grassland|grazing"
+    },
+    {
+      "rule_id": "R09",
+      "group_id": "G15",
+      "kind": "title",
+      "pattern": "drinking water|water supply|safe water|water purification"
+    },
+    {
+      "rule_id": "R10",
+      "group_id": "G10",
+      "kind": "title",
+      "pattern": "vehicle|transport|modal shift|\\bcharging|shore-side|off-shore electricity supply"
+    },
+    {
+      "rule_id": "R11",
+      "group_id": "G16",
+      "kind": "title",
+      "pattern": "ozone-depleting|hydrofluorocarbon|\\bsf6\\b|cover gas|\\bods\\b"
+    },
+    {
+      "rule_id": "R12",
+      "group_id": "G13",
+      "kind": "title",
+      "pattern": "\\b(cement|clinker|concrete|asphalt|pavement|quicklime)\\b"
+    },
+    {
+      "rule_id": "R12L",
+      "group_id": "G09",
+      "kind": "title",
+      "pattern": "\\blighting\\b|\\bled\\b|\\bcfl\\b"
+    },
+    {
+      "rule_id": "R13",
+      "group_id": "G01",
+      "kind": "title",
+      "pattern": "(grid[\\- ]?connected|electrification|electricity generation|electricity and heat|power[\\- ]only|renewable electricity).*(renewable|wind|solar|hydro|geothermal|tidal|wave|biomass)|(renewable|wind|solar|hydro|geothermal|tidal|wave|biomass).*(electric|grid|power generation|power[\\- ]only)"
+    },
+    {
+      "rule_id": "R14",
+      "group_id": "G01",
+      "kind": "code",
+      "pattern": "^AMS-I\\.[ABFL]\\.?$"
+    },
+    {
+      "rule_id": "R15",
+      "group_id": "G03",
+      "kind": "title",
+      "pattern": "cooking|heating|thermal|cookstove|stove|space heating|district cooling"
+    },
+    {
+      "rule_id": "R16",
+      "group_id": "G03",
+      "kind": "code",
+      "pattern": "^AMS-I\\.[CE]\\.?$"
+    },
+    {
+      "rule_id": "R17",
+      "group_id": "G14",
+      "kind": "title",
+      "pattern": "fuel switch|fossil fuel|natural gas|grid connected electricity"
+    },
+    {
+      "rule_id": "R18",
+      "group_id": "G09",
+      "kind": "title",
+      "pattern": "energy efficiency|lighting|\\bled\\b|\\bcfl\\b|demand-side|campus clean energy"
+    }
+  ],
+  "groups": {
+    "G01": [
+      "ACM0002",
+      "ACM0006",
+      "ACM0018",
+      "ACM0020",
+      "AM0004",
+      "AM0005",
+      "AM0019",
+      "AM0026",
+      "AM0042",
+      "AM0052",
+      "AM0085",
+      "AM0103",
+      "AMS-I.A.",
+      "AMS-I.B.",
+      "AMS-I.D.",
+      "AMS-I.F.",
+      "AMS-I.L.",
+      "CER-EN-001",
+      "GCCM001",
+      "GCCM004",
+      "NM0389",
+      "VMR0017"
+    ],
+    "G02": [
+      "ACCU-WA-001",
+      "ACCU-WA-004",
+      "ACCU-WA-005",
+      "ACCU-WA-009",
+      "ACCU-WA-010",
+      "ACM0001",
+      "ACR-WA-001",
+      "AM0002",
+      "AM0003",
+      "AM0010",
+      "AM0011",
+      "AM0083",
+      "AM0093",
+      "AMS-III.G.",
+      "CAR-WA-001",
+      "CAR-WA-002",
+      "CAR-WA-003",
+      "CER-WA-001",
+      "CER-WA-003",
+      "GS-WA-004",
+      "ISO-WA-002",
+      "VMR0016"
+    ],
+    "G03": [
+      "AM0044",
+      "AM0058",
+      "AM0066",
+      "AM0072",
+      "AM0094",
+      "AM0117",
+      "AMS-I.C.",
+      "AMS-I.E.",
+      "AMS-I.I.",
+      "AMS-I.J.",
+      "AMS-II.G.",
+      "AMS-II.R.",
+      "AMS-III.E.",
+      "GS-EN-002",
+      "GS-EN-004",
+      "GS-EN-006",
+      "GS-EN-007",
+      "GS-EN-009",
+      "GS-EN-013",
+      "SCM0001",
+      "VM0050",
+      "VMR0006",
+      "VMR0011"
+    ],
+    "G04": [
+      "ACCU-FO-002",
+      "ACCU-FO-010",
+      "ACCU-FO-011",
+      "ACR-FO-001",
+      "AR-ACM0001",
+      "AR-ACM0002",
+      "AR-ACM0003",
+      "AR-AM0001",
+      "AR-AM0002",
+      "AR-AM0003",
+      "AR-AM0004",
+      "AR-AM0005",
+      "AR-AM0006",
+      "AR-AM0007",
+      "AR-AM0008",
+      "AR-AM0009",
+      "AR-AM0011",
+      "AR-AM0012",
+      "AR-AM0013",
+      "AR-AM0014",
+      "ARNM0024",
+      "ARNM0027",
+      "ARNM0028",
+      "ARNM0030",
+      "ARNM0033",
+      "ARNM0034",
+      "ARNM0037",
+      "ARNM0038",
+      "CER-FO-002",
+      "CER-FO-012",
+      "GS-FO-001",
+      "ISO-FO-001",
+      "SCM0009",
+      "VM0047"
+    ],
+    "G05": [
+      "ACCU-FO-003",
+      "ACCU-FO-004",
+      "ACR-FO-003",
+      "ACR-FO-004",
+      "ACR-FO-005",
+      "BCR0002",
+      "BCR0010",
+      "CAR-FO-005",
+      "CER-FO-001",
+      "CER-FO-004",
+      "CER-FO-005",
+      "CER-FO-296",
+      "ISO-FO-003",
+      "SCM0011",
+      "TREES",
+      "VM0003",
+      "VM0006",
+      "VM0007",
+      "VM0009",
+      "VM0010",
+      "VM0012",
+      "VM0015",
+      "VM0035",
+      "VM0037",
+      "VM0045",
+      "VM0048"
+    ],
+    "G06": [
+      "ACM0010",
+      "AM0006",
+      "AM0073",
+      "AMS-III.D.",
+      "AMS-III.R.",
+      "CAR-AG-006",
+      "CAR-AG-007",
+      "CAR-AG-008",
+      "CAR-AG-009",
+      "GCCM003",
+      "GS-WA-001",
+      "GS-WA-006",
+      "NM0386"
+    ],
+    "G07": [
+      "ACCU-WA-007",
+      "ACM0014",
+      "AM0022",
+      "AM0039",
+      "AM0080",
+      "AMS-III.H.",
+      "AMS-III.I.",
+      "AMS-III.Y.",
+      "ISO-WA-001"
+    ],
+    "G08": [
+      "ACCU-WA-002",
+      "ACCU-WA-006",
+      "ACCU-WA-008",
+      "ACM0004",
+      "ACM0022",
+      "AM0012",
+      "AM0025",
+      "AM0032",
+      "AM0055",
+      "AM0081",
+      "AM0095",
+      "AMS-III.AF.",
+      "AMS-III.AJ.",
+      "AMS-III.AX.",
+      "AMS-III.BA.",
+      "AMS-III.F.",
+      "AMS-III.P.",
+      "CAR-WA-004",
+      "CER-WA-002",
+      "GS-WA-003",
+      "VM0018"
+    ],
+    "G09": [
+      "ACCU-GN-006",
+      "AM0038",
+      "AM0054",
+      "AM0061",
+      "AM0062",
+      "AM0068",
+      "AM0105",
+      "AM0106",
+      "AM0113",
+      "AMS-II.A.",
+      "AMS-II.B.",
+      "AMS-II.C.",
+      "AMS-II.H.",
+      "AMS-II.J.",
+      "AMS-II.L.",
+      "AMS-II.M.",
+      "AMS-II.N.",
+      "AMS-II.Q.",
+      "AMS-II.S.",
+      "AMS-III.AE.",
+      "AMS-III.AR.",
+      "AMS-III.X.",
+      "GCCM006",
+      "GS-EN-005",
+      "GS-TR-003",
+      "VM0025"
+    ],
+    "G10": [
+      "AM0090",
+      "AM0110",
+      "AMS-III.AA.",
+      "AMS-III.AK.",
+      "AMS-III.AP.",
+      "AMS-III.AQ.",
+      "AMS-III.AT.",
+      "AMS-III.BC.",
+      "AMS-III.BM.",
+      "AMS-III.BN.",
+      "AMS-III.BO.",
+      "AMS-III.BP.",
+      "AMS-III.BQ.",
+      "AMS-III.C.",
+      "AMS-III.S.",
+      "AMS-III.T.",
+      "CER-EN-002",
+      "GCCMT001",
+      "GS-TR-001",
+      "VM0019",
+      "VM0020",
+      "VM0038",
+      "VMR0004",
+      "VMR0014"
+    ],
+    "G11": [
+      "ACCU-WA-012",
+      "ACM0008",
+      "AM0023",
+      "AM0064",
+      "CAR-IN-001",
+      "NM0376",
+      "VM0001",
+      "VM0014"
+    ],
+    "G12": [
+      "ACCU-AG-002",
+      "AMS-III.AU.",
+      "AMS-III.BS.",
+      "CAR-AG-001",
+      "CAR-AG-002",
+      "CAR-AG-004",
+      "GS-AG-003",
+      "GS-AG-007",
+      "ISO-AG-002",
+      "SCM0002",
+      "VM0017",
+      "VM0026",
+      "VM0032",
+      "VM0042",
+      "VM0051"
+    ],
+    "G13": [
+      "ACM0003",
+      "ACM0005",
+      "ACM0015",
+      "AM0024",
+      "AM0033",
+      "AM0040",
+      "AM0121",
+      "AM0125",
+      "AMS-III.BH.",
+      "CAR-IN-004",
+      "NM0379",
+      "VM0030",
+      "VM0031",
+      "VM0039",
+      "VM0043",
+      "VMR0012"
+    ],
+    "G14": [
+      "ACM0009",
+      "ACM0011",
+      "ACM0013",
+      "ACM0024",
+      "ACM0025",
+      "ACM0026",
+      "AM0008",
+      "AM0014",
+      "AM0029",
+      "AM0043",
+      "AM0053",
+      "AM0056",
+      "AM0063",
+      "AM0076",
+      "AM0087",
+      "AM0091",
+      "AM0099",
+      "AM0107",
+      "AMS-II.D.",
+      "AMS-II.E.",
+      "AMS-II.F.",
+      "AMS-III.AG.",
+      "AMS-III.AM.",
+      "AMS-III.AN.",
+      "AMS-III.AS.",
+      "AMS-III.B.",
+      "AMS-III.J.",
+      "AMS-III.Z.",
+      "GCCM008",
+      "GS-EN-014",
+      "GS-EN-015",
+      "NM0371"
+    ],
+    "G15": [
+      "AM0086",
+      "AMS-III.AV.",
+      "GS-EN-001"
+    ],
+    "G16": [
+      "AM0035",
+      "AM0065",
+      "AM0078",
+      "AM0079",
+      "AM0119",
+      "ISO-IN-001",
+      "NM0375",
+      "VM0016"
+    ]
+  },
+  "code_to_group": {
+    "NM0379": "G13",
+    "SDV-001": "SINGLETON::SDV-001",
+    "ACCU-GN-001": "SINGLETON::ACCU-GN-001",
+    "AMS-I.E.": "G03",
+    "VM0037": "G05",
+    "VM0020": "G10",
+    "ARNM0037": "G04",
+    "AM0120": "SINGLETON::AM0120",
+    "VMR0010": "SINGLETON::VMR0010",
+    "NM0385": "SINGLETON::NM0385",
+    "AM0042": "G01",
+    "AM0016": "SINGLETON::AM0016",
+    "AM0023": "G11",
+    "ACR-CS-001": "SINGLETON::ACR-CS-001",
+    "ACCU-AG-002": "G12",
+    "BCR0005": "SINGLETON::BCR0005",
+    "WCC-WOODLAND-001": "SINGLETON::WCC-WOODLAND-001",
+    "AM0018": "SINGLETON::AM0018",
+    "AM0025": "G08",
+    "ACCU-GN-008": "SINGLETON::ACCU-GN-008",
+    "AM0005": "G01",
+    "SCM0004": "SINGLETON::SCM0004",
+    "AM0114": "SINGLETON::AM0114",
+    "VM0035": "G05",
+    "NM0378": "SINGLETON::NM0378",
+    "CAR-AG-009": "G06",
+    "PURO-AG-002": "SINGLETON::PURO-AG-002",
+    "ARNM0034": "G04",
+    "PM001": "SINGLETON::PM001",
+    "AM0027": "SINGLETON::AM0027",
+    "GCCMA003": "SINGLETON::GCCMA003",
+    "ACCU-GN-007": "SINGLETON::ACCU-GN-007",
+    "AMS-III.AY.": "SINGLETON::AMS-III.AY.",
+    "AM0091": "G14",
+    "AM0093": "G02",
+    "AR-AM0011": "G04",
+    "VM0033": "SINGLETON::VM0033",
+    "ACR-FO-001": "G04",
+    "AMS-III.V.": "SINGLETON::AMS-III.V.",
+    "AMS-I.F.": "G01",
+    "BC-OC-001": "SINGLETON::BC-OC-001",
+    "ACM0015": "G13",
+    "AM0043": "G14",
+    "CAR-IN-001": "G11",
+    "AMS-III.AF.": "G08",
+    "AMS-III.C.": "G10",
+    "SCM0008": "SINGLETON::SCM0008",
+    "CER-WA-002": "G08",
+    "GS-AG-007": "G12",
+    "AMS-II.H.": "G09",
+    "AM0117": "G03",
+    "AM0118": "SINGLETON::AM0118",
+    "ACCU-WA-004": "G02",
+    "AM0108": "SINGLETON::AM0108",
+    "GS-EN-009": "G03",
+    "AM0003": "G02",
+    "CER-FO-005": "G05",
+    "NM0374": "SINGLETON::NM0374",
+    "CAR-AG-006": "G06",
+    "ACM0006": "G01",
+    "CAR-WA-002": "G02",
+    "SCM0003": "SINGLETON::SCM0003",
+    "AM0099": "G14",
+    "AMS-II.R.": "G03",
+    "AMS-III.BO.": "G10",
+    "AMS-III.AV.": "G15",
+    "GS-EN-004": "G03",
+    "AMS-III.AQ.": "G10",
+    "AM0072": "G03",
+    "CAR-EN-001": "SINGLETON::CAR-EN-001",
+    "ACCU-WA-011": "SINGLETON::ACCU-WA-011",
+    "AM0022": "G07",
+    "ACCU-FO-007": "SINGLETON::ACCU-FO-007",
+    "SCM0011": "G05",
+    "CAR-FO-005": "G05",
+    "AM0089": "SINGLETON::AM0089",
+    "ISO-OC-001": "SINGLETON::ISO-OC-001",
+    "AM0028": "SINGLETON::AM0028",
+    "GCCMA002": "SINGLETON::GCCMA002",
+    "SCM0010": "SINGLETON::SCM0010",
+    "NM0377": "SINGLETON::NM0377",
+    "VM0010": "G05",
+    "VM0029": "SINGLETON::VM0029",
+    "ACCU-FO-002": "G04",
+    "GS-AG-004": "SINGLETON::GS-AG-004",
+    "ARNM0039": "SINGLETON::ARNM0039",
+    "AM0008": "G14",
+    "AM0041": "SINGLETON::AM0041",
+    "AMS-III.L.": "SINGLETON::AMS-III.L.",
+    "VM0017": "G12",
+    "AMS-III.W.": "SINGLETON::AMS-III.W.",
+    "AMS-III.BN.": "G10",
+    "AMS-I.C.": "G03",
+    "GS-WA-001": "G06",
+    "GS-IN-001": "SINGLETON::GS-IN-001",
+    "AM0109": "SINGLETON::AM0109",
+    "AMS-II.J.": "G09",
+    "SCM0007": "SINGLETON::SCM0007",
+    "ACR-FO-006": "SINGLETON::ACR-FO-006",
+    "ISO-CS-004": "SINGLETON::ISO-CS-004",
+    "CAR-CS-001": "SINGLETON::CAR-CS-001",
+    "VM0047": "G04",
+    "SCM0002": "G12",
+    "ACCU-FO-009": "SINGLETON::ACCU-FO-009",
+    "CAR-FO-002": "SINGLETON::CAR-FO-002",
+    "VM0038": "G10",
+    "AM0106": "G09",
+    "GCCMA001": "SINGLETON::GCCMA001",
+    "AMS-III.BH.": "G13",
+    "VM0021": "SINGLETON::VM0021",
+    "VM0001": "G11",
+    "VM0039": "G13",
+    "AMS-III.AW.": "SINGLETON::AMS-III.AW.",
+    "ISO-WA-001": "G07",
+    "AMS-III.BI.": "SINGLETON::AMS-III.BI.",
+    "AMS-III.AL.": "SINGLETON::AMS-III.AL.",
+    "PURO-CS-002": "SINGLETON::PURO-CS-002",
+    "AMS-I.J.": "G03",
+    "VM0034": "SINGLETON::VM0034",
+    "VM0012": "G05",
+    "ACCU-WA-003": "SINGLETON::ACCU-WA-003",
+    "AMS-I.G.": "SINGLETON::AMS-I.G.",
+    "ACCU-EN-003": "SINGLETON::ACCU-EN-003",
+    "CER-FO-296": "G05",
+    "AM0054": "G09",
+    "AM0055": "G08",
+    "AMS-III.BA.": "G08",
+    "GS-EN-013": "G03",
+    "AM0125": "G13",
+    "VM0014": "G11",
+    "AM0002": "G02",
+    "AMS-II.P.": "SINGLETON::AMS-II.P.",
+    "ISO-CS-001": "SINGLETON::ISO-CS-001",
+    "BCR0008": "SINGLETON::BCR0008",
+    "AM0050": "SINGLETON::AM0050",
+    "AMS-III.Z.": "G14",
+    "AM0007": "SINGLETON::AM0007",
+    "ACCU-WA-001": "G02",
+    "AM0060": "SINGLETON::AM0060",
+    "ACCU-WA-008": "G08",
+    "ACCU-WA-010": "G02",
+    "ACR-IN-002": "SINGLETON::ACR-IN-002",
+    "AM0123": "SINGLETON::AM0123",
+    "AMS-II.G.": "G03",
+    "AMS-II.C.": "G09",
+    "AMS-III.AN.": "G14",
+    "AMS-III.BL.": "SINGLETON::AMS-III.BL.",
+    "GS-TR-004": "SINGLETON::GS-TR-004",
+    "AMS-III.BJ.": "SINGLETON::AMS-III.BJ.",
+    "AM0001": "SINGLETON::AM0001",
+    "AM0083": "G02",
+    "AM0085": "G01",
+    "AM0103": "G01",
+    "ACCU-IN-004": "SINGLETON::ACCU-IN-004",
+    "ACCU-WA-005": "G02",
+    "ACM0022": "G08",
+    "GCCM007": "SINGLETON::GCCM007",
+    "ACM0008": "G11",
+    "AM0094": "G03",
+    "AM0088": "SINGLETON::AM0088",
+    "AM0052": "G01",
+    "CAR-WA-004": "G08",
+    "VMR0005": "SINGLETON::VMR0005",
+    "ACCU-TR-001": "SINGLETON::ACCU-TR-001",
+    "ACCU-WA-006": "G08",
+    "CAR-FO-004": "SINGLETON::CAR-FO-004",
+    "ACCU-GN-002": "SINGLETON::ACCU-GN-002",
+    "BCR0010": "G05",
+    "ISO-CS-005": "SINGLETON::ISO-CS-005",
+    "AR-AM0006": "G04",
+    "AM0107": "G14",
+    "GS-TR-005": "SINGLETON::GS-TR-005",
+    "GS-AG-005": "SINGLETON::GS-AG-005",
+    "AMS-II.N.": "G09",
+    "RBW-GN-003": "SINGLETON::RBW-GN-003",
+    "AM0034": "SINGLETON::AM0034",
+    "VM0030": "G13",
+    "AM0036": "SINGLETON::AM0036",
+    "CAR-FO-003": "SINGLETON::CAR-FO-003",
+    "AM0029": "G14",
+    "GCCM003": "G06",
+    "GS-IN-002": "SINGLETON::GS-IN-002",
+    "AM0064": "G11",
+    "AMS-II.I.": "SINGLETON::AMS-II.I.",
+    "ISO-WA-002": "G02",
+    "AMS-III.AT.": "G10",
+    "TREES": "G05",
+    "AM0111": "SINGLETON::AM0111",
+    "AR-AM0013": "G04",
+    "GCCM002": "SINGLETON::GCCM002",
+    "ACCU-GN-011": "SINGLETON::ACCU-GN-011",
+    "ACR-IN-004": "SINGLETON::ACR-IN-004",
+    "ACM0018": "G01",
+    "SCM0006": "SINGLETON::SCM0006",
+    "ACR-FO-004": "G05",
+    "AM0070": "SINGLETON::AM0070",
+    "ARNM0026": "SINGLETON::ARNM0026",
+    "AMS-III.G.": "G02",
+    "ACCU-FO-011": "G04",
+    "AMS-I.A.": "G01",
+    "VM0018": "G08",
+    "CAR-IN-002": "SINGLETON::CAR-IN-002",
+    "ACCU-WA-002": "G08",
+    "AMS-III.D.": "G06",
+    "GS-EN-006": "G03",
+    "VM0044": "SINGLETON::VM0044",
+    "VM0031": "G13",
+    "ISO-CS-007": "SINGLETON::ISO-CS-007",
+    "AMS-II.K.": "SINGLETON::AMS-II.K.",
+    "AMS-III.BE.": "SINGLETON::AMS-III.BE.",
+    "CAR-IN-005": "SINGLETON::CAR-IN-005",
+    "AM0119": "G16",
+    "AM0044": "G03",
+    "AMS-III.K.": "SINGLETON::AMS-III.K.",
+    "GCCM005": "SINGLETON::GCCM005",
+    "AMS-I.B.": "G01",
+    "CER-FO-003": "SINGLETON::CER-FO-003",
+    "PURO-OC-002": "SINGLETON::PURO-OC-002",
+    "CAR-AG-008": "G06",
+    "PURO-GN-001": "SINGLETON::PURO-GN-001",
+    "VM0040": "SINGLETON::VM0040",
+    "AMS-III.H.": "G07",
+    "RBW-AG-001": "SINGLETON::RBW-AG-001",
+    "AM0032": "G08",
+    "ACM0013": "G14",
+    "PURO-AG-001": "SINGLETON::PURO-AG-001",
+    "ISO-CS-003": "SINGLETON::ISO-CS-003",
+    "NM0386": "G06",
+    "NM0376": "G11",
+    "AM0078": "G16",
+    "NM0380": "SINGLETON::NM0380",
+    "ACCU-GN-003": "SINGLETON::ACCU-GN-003",
+    "ACM0019": "SINGLETON::ACM0019",
+    "AMS-II.E.": "G14",
+    "AMS-III.F.": "G08",
+    "BC-AG-001": "SINGLETON::BC-AG-001",
+    "AM0112": "SINGLETON::AM0112",
+    "AM0020": "SINGLETON::AM0020",
+    "AR-ACM0001": "G04",
+    "AM0071": "SINGLETON::AM0071",
+    "GS-FO-001": "G04",
+    "AM0096": "SINGLETON::AM0096",
+    "AR-AM0009": "G04",
+    "GS-AG-002": "SINGLETON::GS-AG-002",
+    "AMS-II.Q.": "G09",
+    "AMS-I.I.": "G03",
+    "CAR-AG-002": "G12",
+    "GCCM009": "SINGLETON::GCCM009",
+    "AMS-III.P.": "G08",
+    "AMS-I.M.": "SINGLETON::AMS-I.M.",
+    "VM0024": "SINGLETON::VM0024",
+    "NM0389": "G01",
+    "ARNM0033": "G04",
+    "ACCU-WA-012": "G11",
+    "VM0049": "SINGLETON::VM0049",
+    "ACM0012": "SINGLETON::ACM0012",
+    "SCM0009": "G04",
+    "ACCU-FO-010": "G04",
+    "GS-EN-008": "SINGLETON::GS-EN-008",
+    "VM0016": "G16",
+    "GS-EN-015": "G14",
+    "AMS-III.AG.": "G14",
+    "VM0007": "G05",
+    "GS-AG-003": "G12",
+    "AR-ACM0003": "G04",
+    "CER-EN-001": "G01",
+    "GS-WA-006": "G06",
+    "GS-EN-007": "G03",
+    "NM0372": "SINGLETON::NM0372",
+    "AMS-II.O.": "SINGLETON::AMS-II.O.",
+    "ACCU-IN-007": "SINGLETON::ACCU-IN-007",
+    "ACM0011": "G14",
+    "GS-EN-001": "G15",
+    "ARNM0028": "G04",
+    "ACM0002": "G01",
+    "ACM0017": "SINGLETON::ACM0017",
+    "GCCMT001": "G10",
+    "AM0121": "G13",
+    "AMS-III.T.": "G10",
+    "AM0026": "G01",
+    "BCR0003": "SINGLETON::BCR0003",
+    "GS-EN-005": "G09",
+    "ARNM0032": "SINGLETON::ARNM0032",
+    "AM0113": "G09",
+    "VM0006": "G05",
+    "AMS-III.BC.": "G10",
+    "ACM0007": "SINGLETON::ACM0007",
+    "VM0050": "G03",
+    "AM0100": "SINGLETON::AM0100",
+    "AM0031": "SINGLETON::AM0031",
+    "AM0074": "SINGLETON::AM0074",
+    "CAR-FO-001": "SINGLETON::CAR-FO-001",
+    "AM0035": "G16",
+    "VMR0017": "G01",
+    "AMS-III.BF.": "SINGLETON::AMS-III.BF.",
+    "CAR-AG-004": "G12",
+    "AM0056": "G14",
+    "AM0124": "SINGLETON::AM0124",
+    "AMS-III.M.": "SINGLETON::AMS-III.M.",
+    "AMS-II.A.": "G09",
+    "CAR-IN-003": "SINGLETON::CAR-IN-003",
+    "VM0019": "G10",
+    "NM0375": "G16",
+    "AM0030": "SINGLETON::AM0030",
+    "ARNM0031": "SINGLETON::ARNM0031",
+    "PCC-PEATLAND-001": "SINGLETON::PCC-PEATLAND-001",
+    "GS-WA-004": "G02",
+    "GS-TR-001": "G10",
+    "ACCU-FO-006": "SINGLETON::ACCU-FO-006",
+    "BCR0004": "SINGLETON::BCR0004",
+    "AMS-III.AA.": "G10",
+    "AMS-III.BM.": "G10",
+    "CER-OC-001": "SINGLETON::CER-OC-001",
+    "AR-AM0002": "G04",
+    "ACM0020": "G01",
+    "ACCU-GN-005": "SINGLETON::ACCU-GN-005",
+    "CAR-FO-006": "SINGLETON::CAR-FO-006",
+    "BC-FO-001": "SINGLETON::BC-FO-001",
+    "ACCU-EN-002": "SINGLETON::ACCU-EN-002",
+    "ACM0004": "G08",
+    "ACR-WA-001": "G02",
+    "AMS-III.BK.": "SINGLETON::AMS-III.BK.",
+    "VM0045": "G05",
+    "AR-AM0005": "G04",
+    "VM0043": "G13",
+    "AMS-III.AM.": "G14",
+    "ACCU-GN-013": "SINGLETON::ACCU-GN-013",
+    "CER-FO-001": "G05",
+    "CAR-WA-003": "G02",
+    "ARNM0024": "G04",
+    "AMS-III.AE.": "G09",
+    "ISO-FO-002": "SINGLETON::ISO-FO-002",
+    "AM0065": "G16",
+    "AMS-III.A.": "SINGLETON::AMS-III.A.",
+    "ACM0021": "SINGLETON::ACM0021",
+    "CER-FO-004": "G05",
+    "AM0011": "G02",
+    "AR-AM0008": "G04",
+    "CAR-AG-007": "G06",
+    "ACCU-EN-001": "SINGLETON::ACCU-EN-001",
+    "VMR0012": "G13",
+    "AM0081": "G08",
+    "VM0022": "SINGLETON::VM0022",
+    "GS-AG-006": "SINGLETON::GS-AG-006",
+    "ISO-CS-006": "SINGLETON::ISO-CS-006",
+    "ACM0009": "G14",
+    "VM0026": "G12",
+    "ACCU-IN-006": "SINGLETON::ACCU-IN-006",
+    "AMS-II.D.": "G14",
+    "AMS-III.AJ.": "G08",
+    "VM0032": "G12",
+    "ISO-IN-001": "G16",
+    "CAR-AG-001": "G12",
+    "GS-EN-002": "G03",
+    "SCM0005": "SINGLETON::SCM0005",
+    "ACCU-FO-008": "SINGLETON::ACCU-FO-008",
+    "VM0042": "G12",
+    "AM0048": "SINGLETON::AM0048",
+    "VM0008": "SINGLETON::VM0008",
+    "AM0046": "SINGLETON::AM0046",
+    "VM0051": "G12",
+    "AMS-III.BG.": "SINGLETON::AMS-III.BG.",
+    "AM0024": "G13",
+    "AR-AM0012": "G04",
+    "AM0061": "G09",
+    "PURO-CS-003": "SINGLETON::PURO-CS-003",
+    "ACCU-CS-001": "SINGLETON::ACCU-CS-001",
+    "ISO-AG-001": "SINGLETON::ISO-AG-001",
+    "ACM0023": "SINGLETON::ACM0023",
+    "AM0079": "G16",
+    "VM0011": "SINGLETON::VM0011",
+    "ACM0003": "G13",
+    "CER-FO-012": "G04",
+    "AMS-III.N.": "SINGLETON::AMS-III.N.",
+    "AMS-III.Q.": "SINGLETON::AMS-III.Q.",
+    "ACCU-IN-002": "SINGLETON::ACCU-IN-002",
+    "AM0092": "SINGLETON::AM0092",
+    "CER-WA-001": "G02",
+    "ISO-CS-002": "SINGLETON::ISO-CS-002",
+    "ACCU-FO-004": "G05",
+    "BCR0009": "SINGLETON::BCR0009",
+    "ACM0001": "G02",
+    "VM0003": "G05",
+    "ACCU-IN-005": "SINGLETON::ACCU-IN-005",
+    "ACCU-GN-012": "SINGLETON::ACCU-GN-012",
+    "AM0077": "SINGLETON::AM0077",
+    "RBW-GN-001": "SINGLETON::RBW-GN-001",
+    "VM0013": "SINGLETON::VM0013",
+    "GS-TR-002": "SINGLETON::GS-TR-002",
+    "AMS-III.I.": "G07",
+    "AM0101": "SINGLETON::AM0101",
+    "AM0015": "SINGLETON::AM0015",
+    "ISO-FO-001": "G04",
+    "AM0084": "SINGLETON::AM0084",
+    "NM0387": "SINGLETON::NM0387",
+    "AM0057": "SINGLETON::AM0057",
+    "AMS-II.M.": "G09",
+    "ACCU-GN-006": "G09",
+    "AMS-III.BD.": "SINGLETON::AMS-III.BD.",
+    "GS-WA-002": "SINGLETON::GS-WA-002",
+    "SCM0001": "G03",
+    "CAR-WA-005": "SINGLETON::CAR-WA-005",
+    "AMS-III.AX.": "G08",
+    "CCB-001": "SINGLETON::CCB-001",
+    "GS-TR-003": "G09",
+    "AMS-III.BP.": "G10",
+    "AM0004": "G01",
+    "AMS-II.F.": "G14",
+    "BCR0012": "SINGLETON::BCR0012",
+    "AMS-III.AO.": "SINGLETON::AMS-III.AO.",
+    "VM0028": "SINGLETON::VM0028",
+    "ARNM0027": "G04",
+    "AMS-II.T.": "SINGLETON::AMS-II.T.",
+    "ACM0024": "G14",
+    "VM0046": "SINGLETON::VM0046",
+    "VMR0014": "G10",
+    "ACCU-AG-001": "SINGLETON::ACCU-AG-001",
+    "AM0105": "G09",
+    "AM0014": "G14",
+    "ACCU-IN-001": "SINGLETON::ACCU-IN-001",
+    "VM0023": "SINGLETON::VM0023",
+    "ISO-EN-001": "SINGLETON::ISO-EN-001",
+    "AM0040": "G13",
+    "ISO-AG-002": "G12",
+    "GS-CS-001": "SINGLETON::GS-CS-001",
+    "AM0082": "SINGLETON::AM0082",
+    "AMS-III.B.": "G14",
+    "ISO-FO-003": "G05",
+    "ACCU-CS-003": "SINGLETON::ACCU-CS-003",
+    "AMS-III.U.": "SINGLETON::AMS-III.U.",
+    "AM0102": "SINGLETON::AM0102",
+    "ISO-OC-003": "SINGLETON::ISO-OC-003",
+    "ACCU-FO-001": "SINGLETON::ACCU-FO-001",
+    "RBW-CS-001": "SINGLETON::RBW-CS-001",
+    "ACCU-GN-010": "SINGLETON::ACCU-GN-010",
+    "AM0073": "G06",
+    "GS-AG-008": "SINGLETON::GS-AG-008",
+    "RBW-EN-001": "SINGLETON::RBW-EN-001",
+    "CER-EN-002": "G10",
+    "AMS-III.R.": "G06",
+    "AM0097": "SINGLETON::AM0097",
+    "PURO-EN-001": "SINGLETON::PURO-EN-001",
+    "AMS-III.BB.": "SINGLETON::AMS-III.BB.",
+    "CER-FO-002": "G04",
+    "AMS-III.AS.": "G14",
+    "AM0090": "G10",
+    "BCR0002": "G05",
+    "AM0087": "G14",
+    "ARNM0036": "SINGLETON::ARNM0036",
+    "ACCU-WA-009": "G02",
+    "ACR-FO-005": "G05",
+    "AM0021": "SINGLETON::AM0021",
+    "GS-EN-016": "SINGLETON::GS-EN-016",
+    "ACM0005": "G13",
+    "AMS-III.AB.": "SINGLETON::AMS-III.AB.",
+    "AM0067": "SINGLETON::AM0067",
+    "VMR0016": "G02",
+    "AMS-III.AC.": "SINGLETON::AMS-III.AC.",
+    "CAR-AG-003": "SINGLETON::CAR-AG-003",
+    "AMS-II.B.": "G09",
+    "AM0104": "SINGLETON::AM0104",
+    "AR-AM0003": "G04",
+    "ACR-IN-001": "SINGLETON::ACR-IN-001",
+    "ACCU-OC-001": "SINGLETON::ACCU-OC-001",
+    "VM0009": "G05",
+    "AM0039": "G07",
+    "ACM0025": "G14",
+    "RBW-GN-002": "SINGLETON::RBW-GN-002",
+    "GCCM006": "G09",
+    "AMS-III.X.": "G09",
+    "AM0038": "G09",
+    "AM0033": "G13",
+    "ARNM0030": "G04",
+    "CAR-IN-004": "G13",
+    "AMS-I.L.": "G01",
+    "AM0012": "G08",
+    "NM0384": "SINGLETON::NM0384",
+    "AR-ACM0002": "G04",
+    "AMS-III.AP.": "G10",
+    "NM0370": "SINGLETON::NM0370",
+    "AM0045": "SINGLETON::AM0045",
+    "AM0019": "G01",
+    "ACCU-FO-005": "SINGLETON::ACCU-FO-005",
+    "AMS-III.AH.": "SINGLETON::AMS-III.AH.",
+    "VM0027": "SINGLETON::VM0027",
+    "AMS-III.BQ.": "G10",
+    "GS-CS-002": "SINGLETON::GS-CS-002",
+    "ISO-OC-002": "SINGLETON::ISO-OC-002",
+    "VM0036": "SINGLETON::VM0036",
+    "ARNM0025": "SINGLETON::ARNM0025",
+    "NM0371": "G14",
+    "PM002": "SINGLETON::PM002",
+    "AM0053": "G14",
+    "AM0062": "G09",
+    "AM0086": "G15",
+    "AM0006": "G06",
+    "AMS-III.Y.": "G07",
+    "AM0059": "SINGLETON::AM0059",
+    "AM0037": "SINGLETON::AM0037",
+    "CAR-AG-005": "SINGLETON::CAR-AG-005",
+    "AMS-III.AK.": "G10",
+    "ACM0026": "G14",
+    "AM0116": "SINGLETON::AM0116",
+    "GS-FO-002": "SINGLETON::GS-FO-002",
+    "AM0076": "G14",
+    "VM0052": "SINGLETON::VM0052",
+    "NM0383": "SINGLETON::NM0383",
+    "GCCM001": "G01",
+    "ISO-FO-004": "SINGLETON::ISO-FO-004",
+    "ACCU-CS-002": "SINGLETON::ACCU-CS-002",
+    "AM0058": "G03",
+    "AMS-III.S.": "G10",
+    "VMR0011": "G03",
+    "AM0122": "SINGLETON::AM0122",
+    "AM0115": "SINGLETON::AM0115",
+    "PURO-OC-001": "SINGLETON::PURO-OC-001",
+    "VM0002": "SINGLETON::VM0002",
+    "AM0009": "SINGLETON::AM0009",
+    "AR-AM0004": "G04",
+    "GCCM004": "G01",
+    "ACR-IN-005": "SINGLETON::ACR-IN-005",
+    "AMS-III.AU.": "G12",
+    "VM0005": "SINGLETON::VM0005",
+    "AR-AM0014": "G04",
+    "AMS-II.S.": "G09",
+    "AM0069": "SINGLETON::AM0069",
+    "AMS-I.H.": "SINGLETON::AMS-I.H.",
+    "AM0068": "G09",
+    "ARNM0038": "G04",
+    "AMS-III.AD.": "SINGLETON::AMS-III.AD.",
+    "AMS-III.E.": "G03",
+    "AMS-III.AR.": "G09",
+    "AR-AM0007": "G04",
+    "VMR0006": "G03",
+    "BC-GN-001": "SINGLETON::BC-GN-001",
+    "VM0015": "G05",
+    "ACM0014": "G07",
+    "GS-EN-012": "SINGLETON::GS-EN-012",
+    "AMS-III.BS.": "G12",
+    "AM0080": "G07",
+    "BCR0013": "SINGLETON::BCR0013",
+    "AM0110": "G10",
+    "AMS-III.BR.": "SINGLETON::AMS-III.BR.",
+    "AMS-II.L.": "G09",
+    "CAR-WA-001": "G02",
+    "VM0025": "G09",
+    "AMS-I.D.": "G01",
+    "AM0066": "G03",
+    "AMS-III.J.": "G14",
+    "GS-WA-003": "G08",
+    "GS-EN-003": "SINGLETON::GS-EN-003",
+    "BCR0007": "SINGLETON::BCR0007",
+    "AMS-I.K.": "SINGLETON::AMS-I.K.",
+    "ACCU-GN-009": "SINGLETON::ACCU-GN-009",
+    "BCR0011": "SINGLETON::BCR0011",
+    "NM0381": "SINGLETON::NM0381",
+    "ACM0016": "SINGLETON::ACM0016",
+    "VM0048": "G05",
+    "AMS-III.O.": "SINGLETON::AMS-III.O.",
+    "AM0047": "SINGLETON::AM0047",
+    "CER-WA-003": "G02",
+    "GS-EN-010": "SINGLETON::GS-EN-010",
+    "ACCU-GN-004": "SINGLETON::ACCU-GN-004",
+    "ACR-FO-003": "G05",
+    "ACCU-FO-003": "G05",
+    "VMR0004": "G10",
+    "GS-EN-014": "G14",
+    "GS-EN-011": "SINGLETON::GS-EN-011",
+    "RBW-WA-001": "SINGLETON::RBW-WA-001",
+    "AMS-III.AI.": "SINGLETON::AMS-III.AI.",
+    "ACR-FO-002": "SINGLETON::ACR-FO-002",
+    "AM0098": "SINGLETON::AM0098",
+    "ACCU-IN-003": "SINGLETON::ACCU-IN-003",
+    "BCR0001": "SINGLETON::BCR0001",
+    "CAR-CS-002": "SINGLETON::CAR-CS-002",
+    "ACM0010": "G06",
+    "CAR-CS-003": "SINGLETON::CAR-CS-003",
+    "AM0017": "SINGLETON::AM0017",
+    "ACR-IN-003": "SINGLETON::ACR-IN-003",
+    "AM0013": "SINGLETON::AM0013",
+    "ACCU-WA-007": "G07",
+    "AR-AM0001": "G04",
+    "AM0049": "SINGLETON::AM0049",
+    "AM0051": "SINGLETON::AM0051",
+    "GCCM008": "G14",
+    "PURO-CS-001": "SINGLETON::PURO-CS-001",
+    "GS-WA-005": "SINGLETON::GS-WA-005",
+    "AM0010": "G02",
+    "AM0095": "G08",
+    "NM0388": "SINGLETON::NM0388",
+    "PURO-CS-004": "SINGLETON::PURO-CS-004",
+    "AM0063": "G14",
+    "AM0075": "SINGLETON::AM0075",
+    "ACCU-CS-004": "SINGLETON::ACCU-CS-004"
+  },
+  "code_to_rule": {
+    "NM0379": "R12",
+    "SDV-001": "R00-singleton",
+    "ACCU-GN-001": "R00-singleton",
+    "AMS-I.E.": "R15",
+    "VM0037": "R07",
+    "VM0020": "R10",
+    "ARNM0037": "R06",
+    "AM0120": "R00-singleton",
+    "VMR0010": "R00-singleton",
+    "NM0385": "R00-singleton",
+    "AM0042": "R13",
+    "AM0016": "R00-singleton",
+    "AM0023": "R02",
+    "ACR-CS-001": "R00-singleton",
+    "ACCU-AG-002": "R08",
+    "BCR0005": "R00-singleton",
+    "WCC-WOODLAND-001": "R00-singleton",
+    "AM0018": "R00-singleton",
+    "AM0025": "R05",
+    "ACCU-GN-008": "R00-singleton",
+    "AM0005": "R13",
+    "SCM0004": "R00-singleton",
+    "AM0114": "R00-singleton",
+    "VM0035": "R07",
+    "NM0378": "R00-singleton",
+    "CAR-AG-009": "R04",
+    "PURO-AG-002": "R00-singleton",
+    "ARNM0034": "R06",
+    "PM001": "R00-singleton",
+    "AM0027": "R00-singleton",
+    "GCCMA003": "R00-singleton",
+    "ACCU-GN-007": "R00-singleton",
+    "AMS-III.AY.": "R00-singleton",
+    "AM0091": "R17",
+    "AM0093": "R01",
+    "AR-AM0011": "R06",
+    "VM0033": "R00-singleton",
+    "ACR-FO-001": "R06",
+    "AMS-III.V.": "R00-singleton",
+    "AMS-I.F.": "R13",
+    "BC-OC-001": "R00-singleton",
+    "ACM0015": "R12",
+    "AM0043": "R17",
+    "CAR-IN-001": "R02",
+    "AMS-III.AF.": "R05",
+    "AMS-III.C.": "R10",
+    "SCM0008": "R00-singleton",
+    "CER-WA-002": "R05",
+    "GS-AG-007": "R08",
+    "AMS-II.H.": "R18",
+    "AM0117": "R15",
+    "AM0118": "R00-singleton",
+    "ACCU-WA-004": "R01",
+    "AM0108": "R00-singleton",
+    "GS-EN-009": "R15",
+    "AM0003": "R01",
+    "CER-FO-005": "R07",
+    "NM0374": "R00-singleton",
+    "CAR-AG-006": "R04",
+    "ACM0006": "R13",
+    "CAR-WA-002": "R01",
+    "SCM0003": "R00-singleton",
+    "AM0099": "R17",
+    "AMS-II.R.": "R15",
+    "AMS-III.BO.": "R10",
+    "AMS-III.AV.": "R09",
+    "GS-EN-004": "R15",
+    "AMS-III.AQ.": "R10",
+    "AM0072": "R15",
+    "CAR-EN-001": "R00-singleton",
+    "ACCU-WA-011": "R00-singleton",
+    "AM0022": "R03",
+    "ACCU-FO-007": "R00-singleton",
+    "SCM0011": "R07",
+    "CAR-FO-005": "R07",
+    "AM0089": "R00-singleton",
+    "ISO-OC-001": "R00-singleton",
+    "AM0028": "R00-singleton",
+    "GCCMA002": "R00-singleton",
+    "SCM0010": "R00-singleton",
+    "NM0377": "R00-singleton",
+    "VM0010": "R07",
+    "VM0029": "R00-singleton",
+    "ACCU-FO-002": "R06",
+    "GS-AG-004": "R00-singleton",
+    "ARNM0039": "R00-singleton",
+    "AM0008": "R17",
+    "AM0041": "R00-singleton",
+    "AMS-III.L.": "R00-singleton",
+    "VM0017": "R08",
+    "AMS-III.W.": "R00-singleton",
+    "AMS-III.BN.": "R10",
+    "AMS-I.C.": "R15",
+    "GS-WA-001": "R04",
+    "GS-IN-001": "R00-singleton",
+    "AM0109": "R00-singleton",
+    "AMS-II.J.": "R12L",
+    "SCM0007": "R00-singleton",
+    "ACR-FO-006": "R00-singleton",
+    "ISO-CS-004": "R00-singleton",
+    "CAR-CS-001": "R00-singleton",
+    "VM0047": "R06",
+    "SCM0002": "R08",
+    "ACCU-FO-009": "R00-singleton",
+    "CAR-FO-002": "R00-singleton",
+    "VM0038": "R10",
+    "AM0106": "R18",
+    "GCCMA001": "R00-singleton",
+    "AMS-III.BH.": "R12",
+    "VM0021": "R00-singleton",
+    "VM0001": "R02",
+    "VM0039": "R12",
+    "AMS-III.AW.": "R00-singleton",
+    "ISO-WA-001": "R03",
+    "AMS-III.BI.": "R00-singleton",
+    "AMS-III.AL.": "R00-singleton",
+    "PURO-CS-002": "R00-singleton",
+    "AMS-I.J.": "R15",
+    "VM0034": "R00-singleton",
+    "VM0012": "R07",
+    "ACCU-WA-003": "R00-singleton",
+    "AMS-I.G.": "R00-singleton",
+    "ACCU-EN-003": "R00-singleton",
+    "CER-FO-296": "R07",
+    "AM0054": "R18",
+    "AM0055": "R05",
+    "AMS-III.BA.": "R05",
+    "GS-EN-013": "R15",
+    "AM0125": "R12",
+    "VM0014": "R02",
+    "AM0002": "R01",
+    "AMS-II.P.": "R00-singleton",
+    "ISO-CS-001": "R00-singleton",
+    "BCR0008": "R00-singleton",
+    "AM0050": "R00-singleton",
+    "AMS-III.Z.": "R17",
+    "AM0007": "R00-singleton",
+    "ACCU-WA-001": "R01",
+    "AM0060": "R00-singleton",
+    "ACCU-WA-008": "R05",
+    "ACCU-WA-010": "R01",
+    "ACR-IN-002": "R00-singleton",
+    "AM0123": "R00-singleton",
+    "AMS-II.G.": "R15",
+    "AMS-II.C.": "R18",
+    "AMS-III.AN.": "R17",
+    "AMS-III.BL.": "R00-singleton",
+    "GS-TR-004": "R00-singleton",
+    "AMS-III.BJ.": "R00-singleton",
+    "AM0001": "R00-singleton",
+    "AM0083": "R01",
+    "AM0085": "R13",
+    "AM0103": "R13",
+    "ACCU-IN-004": "R00-singleton",
+    "ACCU-WA-005": "R01",
+    "ACM0022": "R05",
+    "GCCM007": "R00-singleton",
+    "ACM0008": "R02",
+    "AM0094": "R15",
+    "AM0088": "R00-singleton",
+    "AM0052": "R13",
+    "CAR-WA-004": "R05",
+    "VMR0005": "R00-singleton",
+    "ACCU-TR-001": "R00-singleton",
+    "ACCU-WA-006": "R05",
+    "CAR-FO-004": "R00-singleton",
+    "ACCU-GN-002": "R00-singleton",
+    "BCR0010": "R07",
+    "ISO-CS-005": "R00-singleton",
+    "AR-AM0006": "R06",
+    "AM0107": "R17",
+    "GS-TR-005": "R00-singleton",
+    "GS-AG-005": "R00-singleton",
+    "AMS-II.N.": "R12L",
+    "RBW-GN-003": "R00-singleton",
+    "AM0034": "R00-singleton",
+    "VM0030": "R12",
+    "AM0036": "R00-singleton",
+    "CAR-FO-003": "R00-singleton",
+    "AM0029": "R17",
+    "GCCM003": "R04",
+    "GS-IN-002": "R00-singleton",
+    "AM0064": "R02",
+    "AMS-II.I.": "R00-singleton",
+    "ISO-WA-002": "R01",
+    "AMS-III.AT.": "R10",
+    "TREES": "R07",
+    "AM0111": "R00-singleton",
+    "AR-AM0013": "R06",
+    "GCCM002": "R00-singleton",
+    "ACCU-GN-011": "R00-singleton",
+    "ACR-IN-004": "R00-singleton",
+    "ACM0018": "R13",
+    "SCM0006": "R00-singleton",
+    "ACR-FO-004": "R07",
+    "AM0070": "R00-singleton",
+    "ARNM0026": "R00-singleton",
+    "AMS-III.G.": "R01",
+    "ACCU-FO-011": "R06",
+    "AMS-I.A.": "R14",
+    "VM0018": "R05",
+    "CAR-IN-002": "R00-singleton",
+    "ACCU-WA-002": "R05",
+    "AMS-III.D.": "R04",
+    "GS-EN-006": "R15",
+    "VM0044": "R00-singleton",
+    "VM0031": "R12",
+    "ISO-CS-007": "R00-singleton",
+    "AMS-II.K.": "R00-singleton",
+    "AMS-III.BE.": "R00-singleton",
+    "CAR-IN-005": "R00-singleton",
+    "AM0119": "R11",
+    "AM0044": "R15",
+    "AMS-III.K.": "R00-singleton",
+    "GCCM005": "R00-singleton",
+    "AMS-I.B.": "R14",
+    "CER-FO-003": "R00-singleton",
+    "PURO-OC-002": "R00-singleton",
+    "CAR-AG-008": "R04",
+    "PURO-GN-001": "R00-singleton",
+    "VM0040": "R00-singleton",
+    "AMS-III.H.": "R03",
+    "RBW-AG-001": "R00-singleton",
+    "AM0032": "R05",
+    "ACM0013": "R17",
+    "PURO-AG-001": "R00-singleton",
+    "ISO-CS-003": "R00-singleton",
+    "NM0386": "R04",
+    "NM0376": "R02",
+    "AM0078": "R11",
+    "NM0380": "R00-singleton",
+    "ACCU-GN-003": "R00-singleton",
+    "ACM0019": "R00-singleton",
+    "AMS-II.E.": "R17",
+    "AMS-III.F.": "R05",
+    "BC-AG-001": "R00-singleton",
+    "AM0112": "R00-singleton",
+    "AM0020": "R00-singleton",
+    "AR-ACM0001": "R06",
+    "AM0071": "R00-singleton",
+    "GS-FO-001": "R06",
+    "AM0096": "R00-singleton",
+    "AR-AM0009": "R06",
+    "GS-AG-002": "R00-singleton",
+    "AMS-II.Q.": "R18",
+    "AMS-I.I.": "R15",
+    "CAR-AG-002": "R08",
+    "GCCM009": "R00-singleton",
+    "AMS-III.P.": "R05",
+    "AMS-I.M.": "R00-singleton",
+    "VM0024": "R00-singleton",
+    "NM0389": "R13",
+    "ARNM0033": "R06",
+    "ACCU-WA-012": "R02",
+    "VM0049": "R00-singleton",
+    "ACM0012": "R00-singleton",
+    "SCM0009": "R06",
+    "ACCU-FO-010": "R06",
+    "GS-EN-008": "R00-singleton",
+    "VM0016": "R11",
+    "GS-EN-015": "R17",
+    "AMS-III.AG.": "R17",
+    "VM0007": "R07",
+    "GS-AG-003": "R08",
+    "AR-ACM0003": "R06",
+    "CER-EN-001": "R13",
+    "GS-WA-006": "R04",
+    "GS-EN-007": "R15",
+    "NM0372": "R00-singleton",
+    "AMS-II.O.": "R00-singleton",
+    "ACCU-IN-007": "R00-singleton",
+    "ACM0011": "R17",
+    "GS-EN-001": "R09",
+    "ARNM0028": "R06",
+    "ACM0002": "R13",
+    "ACM0017": "R00-singleton",
+    "GCCMT001": "R10",
+    "AM0121": "R12",
+    "AMS-III.T.": "R10",
+    "AM0026": "R13",
+    "BCR0003": "R00-singleton",
+    "GS-EN-005": "R18",
+    "ARNM0032": "R00-singleton",
+    "AM0113": "R12L",
+    "VM0006": "R07",
+    "AMS-III.BC.": "R10",
+    "ACM0007": "R00-singleton",
+    "VM0050": "R15",
+    "AM0100": "R00-singleton",
+    "AM0031": "R00-singleton",
+    "AM0074": "R00-singleton",
+    "CAR-FO-001": "R00-singleton",
+    "AM0035": "R11",
+    "VMR0017": "R13",
+    "AMS-III.BF.": "R00-singleton",
+    "CAR-AG-004": "R08",
+    "AM0056": "R17",
+    "AM0124": "R00-singleton",
+    "AMS-III.M.": "R00-singleton",
+    "AMS-II.A.": "R18",
+    "CAR-IN-003": "R00-singleton",
+    "VM0019": "R10",
+    "NM0375": "R11",
+    "AM0030": "R00-singleton",
+    "ARNM0031": "R00-singleton",
+    "PCC-PEATLAND-001": "R00-singleton",
+    "GS-WA-004": "R01",
+    "GS-TR-001": "R10",
+    "ACCU-FO-006": "R00-singleton",
+    "BCR0004": "R00-singleton",
+    "AMS-III.AA.": "R10",
+    "AMS-III.BM.": "R10",
+    "CER-OC-001": "R00-singleton",
+    "AR-AM0002": "R06",
+    "ACM0020": "R13",
+    "ACCU-GN-005": "R00-singleton",
+    "CAR-FO-006": "R00-singleton",
+    "BC-FO-001": "R00-singleton",
+    "ACCU-EN-002": "R00-singleton",
+    "ACM0004": "R05",
+    "ACR-WA-001": "R01",
+    "AMS-III.BK.": "R00-singleton",
+    "VM0045": "R07",
+    "AR-AM0005": "R06",
+    "VM0043": "R12",
+    "AMS-III.AM.": "R17",
+    "ACCU-GN-013": "R00-singleton",
+    "CER-FO-001": "R07",
+    "CAR-WA-003": "R01",
+    "ARNM0024": "R06",
+    "AMS-III.AE.": "R18",
+    "ISO-FO-002": "R00-singleton",
+    "AM0065": "R11",
+    "AMS-III.A.": "R00-singleton",
+    "ACM0021": "R00-singleton",
+    "CER-FO-004": "R07",
+    "AM0011": "R01",
+    "AR-AM0008": "R06",
+    "CAR-AG-007": "R04",
+    "ACCU-EN-001": "R00-singleton",
+    "VMR0012": "R12",
+    "AM0081": "R05",
+    "VM0022": "R00-singleton",
+    "GS-AG-006": "R00-singleton",
+    "ISO-CS-006": "R00-singleton",
+    "ACM0009": "R17",
+    "VM0026": "R08",
+    "ACCU-IN-006": "R00-singleton",
+    "AMS-II.D.": "R17",
+    "AMS-III.AJ.": "R05",
+    "VM0032": "R08",
+    "ISO-IN-001": "R11",
+    "CAR-AG-001": "R08",
+    "GS-EN-002": "R15",
+    "SCM0005": "R00-singleton",
+    "ACCU-FO-008": "R00-singleton",
+    "VM0042": "R08",
+    "AM0048": "R00-singleton",
+    "VM0008": "R00-singleton",
+    "AM0046": "R00-singleton",
+    "VM0051": "R08",
+    "AMS-III.BG.": "R00-singleton",
+    "AM0024": "R12",
+    "AR-AM0012": "R06",
+    "AM0061": "R18",
+    "PURO-CS-003": "R00-singleton",
+    "ACCU-CS-001": "R00-singleton",
+    "ISO-AG-001": "R00-singleton",
+    "ACM0023": "R00-singleton",
+    "AM0079": "R11",
+    "VM0011": "R00-singleton",
+    "ACM0003": "R12",
+    "CER-FO-012": "R06",
+    "AMS-III.N.": "R00-singleton",
+    "AMS-III.Q.": "R00-singleton",
+    "ACCU-IN-002": "R00-singleton",
+    "AM0092": "R00-singleton",
+    "CER-WA-001": "R01",
+    "ISO-CS-002": "R00-singleton",
+    "ACCU-FO-004": "R07",
+    "BCR0009": "R00-singleton",
+    "ACM0001": "R01",
+    "VM0003": "R07",
+    "ACCU-IN-005": "R00-singleton",
+    "ACCU-GN-012": "R00-singleton",
+    "AM0077": "R00-singleton",
+    "RBW-GN-001": "R00-singleton",
+    "VM0013": "R00-singleton",
+    "GS-TR-002": "R00-singleton",
+    "AMS-III.I.": "R03",
+    "AM0101": "R00-singleton",
+    "AM0015": "R00-singleton",
+    "ISO-FO-001": "R06",
+    "AM0084": "R00-singleton",
+    "NM0387": "R00-singleton",
+    "AM0057": "R00-singleton",
+    "AMS-II.M.": "R18",
+    "ACCU-GN-006": "R12L",
+    "AMS-III.BD.": "R00-singleton",
+    "GS-WA-002": "R00-singleton",
+    "SCM0001": "R15",
+    "CAR-WA-005": "R00-singleton",
+    "AMS-III.AX.": "R05",
+    "CCB-001": "R00-singleton",
+    "GS-TR-003": "R18",
+    "AMS-III.BP.": "R10",
+    "AM0004": "R13",
+    "AMS-II.F.": "R17",
+    "BCR0012": "R00-singleton",
+    "AMS-III.AO.": "R00-singleton",
+    "VM0028": "R00-singleton",
+    "ARNM0027": "R06",
+    "AMS-II.T.": "R00-singleton",
+    "ACM0024": "R17",
+    "VM0046": "R00-singleton",
+    "VMR0014": "R10",
+    "ACCU-AG-001": "R00-singleton",
+    "AM0105": "R18",
+    "AM0014": "R17",
+    "ACCU-IN-001": "R00-singleton",
+    "VM0023": "R00-singleton",
+    "ISO-EN-001": "R00-singleton",
+    "AM0040": "R12",
+    "ISO-AG-002": "R08",
+    "GS-CS-001": "R00-singleton",
+    "AM0082": "R00-singleton",
+    "AMS-III.B.": "R17",
+    "ISO-FO-003": "R07",
+    "ACCU-CS-003": "R00-singleton",
+    "AMS-III.U.": "R00-singleton",
+    "AM0102": "R00-singleton",
+    "ISO-OC-003": "R00-singleton",
+    "ACCU-FO-001": "R00-singleton",
+    "RBW-CS-001": "R00-singleton",
+    "ACCU-GN-010": "R00-singleton",
+    "AM0073": "R04",
+    "GS-AG-008": "R00-singleton",
+    "RBW-EN-001": "R00-singleton",
+    "CER-EN-002": "R10",
+    "AMS-III.R.": "R04",
+    "AM0097": "R00-singleton",
+    "PURO-EN-001": "R00-singleton",
+    "AMS-III.BB.": "R00-singleton",
+    "CER-FO-002": "R06",
+    "AMS-III.AS.": "R17",
+    "AM0090": "R10",
+    "BCR0002": "R07",
+    "AM0087": "R17",
+    "ARNM0036": "R00-singleton",
+    "ACCU-WA-009": "R01",
+    "ACR-FO-005": "R07",
+    "AM0021": "R00-singleton",
+    "GS-EN-016": "R00-singleton",
+    "ACM0005": "R12",
+    "AMS-III.AB.": "R00-singleton",
+    "AM0067": "R00-singleton",
+    "VMR0016": "R01",
+    "AMS-III.AC.": "R00-singleton",
+    "CAR-AG-003": "R00-singleton",
+    "AMS-II.B.": "R18",
+    "AM0104": "R00-singleton",
+    "AR-AM0003": "R06",
+    "ACR-IN-001": "R00-singleton",
+    "ACCU-OC-001": "R00-singleton",
+    "VM0009": "R07",
+    "AM0039": "R03",
+    "ACM0025": "R17",
+    "RBW-GN-002": "R00-singleton",
+    "GCCM006": "R18",
+    "AMS-III.X.": "R18",
+    "AM0038": "R18",
+    "AM0033": "R12",
+    "ARNM0030": "R06",
+    "CAR-IN-004": "R12",
+    "AMS-I.L.": "R13",
+    "AM0012": "R05",
+    "NM0384": "R00-singleton",
+    "AR-ACM0002": "R06",
+    "AMS-III.AP.": "R10",
+    "NM0370": "R00-singleton",
+    "AM0045": "R00-singleton",
+    "AM0019": "R13",
+    "ACCU-FO-005": "R00-singleton",
+    "AMS-III.AH.": "R00-singleton",
+    "VM0027": "R00-singleton",
+    "AMS-III.BQ.": "R10",
+    "GS-CS-002": "R00-singleton",
+    "ISO-OC-002": "R00-singleton",
+    "VM0036": "R00-singleton",
+    "ARNM0025": "R00-singleton",
+    "NM0371": "R17",
+    "PM002": "R00-singleton",
+    "AM0053": "R17",
+    "AM0062": "R18",
+    "AM0086": "R09",
+    "AM0006": "R04",
+    "AMS-III.Y.": "R03",
+    "AM0059": "R00-singleton",
+    "AM0037": "R00-singleton",
+    "CAR-AG-005": "R00-singleton",
+    "AMS-III.AK.": "R10",
+    "ACM0026": "R17",
+    "AM0116": "R00-singleton",
+    "GS-FO-002": "R00-singleton",
+    "AM0076": "R17",
+    "VM0052": "R00-singleton",
+    "NM0383": "R00-singleton",
+    "GCCM001": "R13",
+    "ISO-FO-004": "R00-singleton",
+    "ACCU-CS-002": "R00-singleton",
+    "AM0058": "R15",
+    "AMS-III.S.": "R10",
+    "VMR0011": "R15",
+    "AM0122": "R00-singleton",
+    "AM0115": "R00-singleton",
+    "PURO-OC-001": "R00-singleton",
+    "VM0002": "R00-singleton",
+    "AM0009": "R00-singleton",
+    "AR-AM0004": "R06",
+    "GCCM004": "R13",
+    "ACR-IN-005": "R00-singleton",
+    "AMS-III.AU.": "R08",
+    "VM0005": "R00-singleton",
+    "AR-AM0014": "R06",
+    "AMS-II.S.": "R18",
+    "AM0069": "R00-singleton",
+    "AMS-I.H.": "R00-singleton",
+    "AM0068": "R18",
+    "ARNM0038": "R06",
+    "AMS-III.AD.": "R00-singleton",
+    "AMS-III.E.": "R15",
+    "AMS-III.AR.": "R12L",
+    "AR-AM0007": "R06",
+    "VMR0006": "R15",
+    "BC-GN-001": "R00-singleton",
+    "VM0015": "R07",
+    "ACM0014": "R03",
+    "GS-EN-012": "R00-singleton",
+    "AMS-III.BS.": "R08",
+    "AM0080": "R03",
+    "BCR0013": "R00-singleton",
+    "AM0110": "R10",
+    "AMS-III.BR.": "R00-singleton",
+    "AMS-II.L.": "R12L",
+    "CAR-WA-001": "R01",
+    "VM0025": "R18",
+    "AMS-I.D.": "R13",
+    "AM0066": "R15",
+    "AMS-III.J.": "R17",
+    "GS-WA-003": "R05",
+    "GS-EN-003": "R00-singleton",
+    "BCR0007": "R00-singleton",
+    "AMS-I.K.": "R00-singleton",
+    "ACCU-GN-009": "R00-singleton",
+    "BCR0011": "R00-singleton",
+    "NM0381": "R00-singleton",
+    "ACM0016": "R00-singleton",
+    "VM0048": "R07",
+    "AMS-III.O.": "R00-singleton",
+    "AM0047": "R00-singleton",
+    "CER-WA-003": "R01",
+    "GS-EN-010": "R00-singleton",
+    "ACCU-GN-004": "R00-singleton",
+    "ACR-FO-003": "R07",
+    "ACCU-FO-003": "R07",
+    "VMR0004": "R10",
+    "GS-EN-014": "R17",
+    "GS-EN-011": "R00-singleton",
+    "RBW-WA-001": "R00-singleton",
+    "AMS-III.AI.": "R00-singleton",
+    "ACR-FO-002": "R00-singleton",
+    "AM0098": "R00-singleton",
+    "ACCU-IN-003": "R00-singleton",
+    "BCR0001": "R00-singleton",
+    "CAR-CS-002": "R00-singleton",
+    "ACM0010": "R04",
+    "CAR-CS-003": "R00-singleton",
+    "AM0017": "R00-singleton",
+    "ACR-IN-003": "R00-singleton",
+    "AM0013": "R00-singleton",
+    "ACCU-WA-007": "R03",
+    "AR-AM0001": "R06",
+    "AM0049": "R00-singleton",
+    "AM0051": "R00-singleton",
+    "GCCM008": "R17",
+    "PURO-CS-001": "R00-singleton",
+    "GS-WA-005": "R00-singleton",
+    "AM0010": "R01",
+    "AM0095": "R05",
+    "NM0388": "R00-singleton",
+    "PURO-CS-004": "R00-singleton",
+    "AM0063": "R17",
+    "AM0075": "R00-singleton",
+    "ACCU-CS-004": "R00-singleton"
+  },
+  "anchor_evidence": {
+    "NM0379": {
+      "title": "Emission reduction from partial switching raw materials and increasing the share of additives in the blended cement production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SDV-001": {
+      "title": "SD VISta Program",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-001": {
+      "title": "Animal effluent management method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.E.": {
+      "title": "Switch from non-renewable biomass for thermal applications by the user",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0037": {
+      "title": "Implementation of REDD+ Activities in Landscapes Affected by Mosaic Deforestation and Degradation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0020": {
+      "title": "Transport Energy Efficiency from Lightweight Pallets",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0037": {
+      "title": "Afforestation/reforestation activities on degraded agricultural land subject to abandonment process",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0120": {
+      "title": "Energy-efficient refrigerators and air-conditioners",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "VMR0010": {
+      "title": "Electricity Supply for Ships",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0385": {
+      "title": "Hazardous Oily Waste Remediation and Processing for Oil Recovery",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0042": {
+      "title": "Grid-connected electricity generation using biomass from newly developed dedicated plantations",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0016": {
+      "title": "Greenhouse gas mitigation from improved animal waste management systems in confined animal feeding operations",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0023": {
+      "title": "Leak detection and repair in gas production, processing, transmission, storage and distribution systems and in refinery facilities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-CS-001": {
+      "title": "Carbon Capture and Storage Projects",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-AG-002": {
+      "title": "Sequestering carbon in soils in grazing systems method (2014)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0005": {
+      "title": "Natural Savannas",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "WCC-WOODLAND-001": {
+      "title": "Woodland Creation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0018": {
+      "title": "Baseline methodology for steam optimization systems",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "AM0025": {
+      "title": "Alternative waste treatment processes",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "ACCU-GN-008": {
+      "title": "Facilities",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0005": {
+      "title": "Small grid-connected zero-emissions renewable electricity generation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0004": {
+      "title": "Methodology for the regeneration of Spekboom Thicket",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0114": {
+      "title": "Shift from electrolytic to catalytic process for recycling of chlorine from hydrogen chloride gas in isocyanate plants",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "4"
+    },
+    "VM0035": {
+      "title": "Improved Forest Management through Reduced Impact Logging",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0378": {
+      "title": "Use of renewable sources of carbon instead of fossil sources in the production of thermoplastic resins and its components",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-AG-009": {
+      "title": "U.S. Livestock",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-AG-002": {
+      "title": "Soil Amendment based on Carbon Storage Methodology",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0034": {
+      "title": "AES-Tiete Afforestation/Reforestation Project Activity around the Borders of Hydroelectric Plant Reservoirs",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PM001": {
+      "title": "Agriculture & Forestry Carbon Benefit Assessment Methodology",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0027": {
+      "title": "Substitution of CO2 from fossil or mineral origin by CO2 from biogenic residual sources in the production of inorganic compounds",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "5"
+    },
+    "GCCMA003": {
+      "title": "GCC NBS Methodology for Rewetting Drained Peatlands",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-007": {
+      "title": "Commercial buildings",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AY.": {
+      "title": "Introduction of LNG buses to existing and new bus routes",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AM0091": {
+      "title": "Energy efficiency technologies and fuel switching in new and existing buildings",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "AM0093": {
+      "title": "Avoidance of landfill gas emissions by passive aeration of landfills",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0011": {
+      "title": "Afforestation and reforestation of land subject to polyculture farming",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0033": {
+      "title": "Tidal Wetland and Seagrass Restoration",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-001": {
+      "title": "Afforestation and Reforestation of Degraded Lands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.V.": {
+      "title": "Decrease of coke consumption in blast furnace by installing dust/sludge recycling system in steel works",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-I.F.": {
+      "title": "Renewable electricity generation for captive use and mini-grid",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "BC-OC-001": {
+      "title": "Blue Carbon Protocol",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0015": {
+      "title": "Emission reductions from raw material switch in clinker production",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "4"
+    },
+    "AM0043": {
+      "title": "Leak reduction from a natural gas distribution grid by replacing old cast iron pipes or steel pipes without cathodic protection with polyethylene pipes",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-IN-001": {
+      "title": "U.S. Coal Mine Methane",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AF.": {
+      "title": "Avoidance of methane emissions through excavating and composting of partially decayed municipal solid waste (MSW)",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.C.": {
+      "title": "Emission reductions by electric and hybrid vehicles",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "SCM0008": {
+      "title": "Methodology for the Restoration of Mangroves",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-WA-002": {
+      "title": "Methodology CM-WM-ELV-01 Recovery and Recycling of Materials from End-of-Life Vehicles",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-007": {
+      "title": "Water and erosion impact assessment of sustainable agricultural land management projects",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.H.": {
+      "title": "Energy efficiency measures through centralization of utility provisions of an industrial facility",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AM0117": {
+      "title": "Introduction of a new district cooling system",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AM0118": {
+      "title": "Introduction of low resistivity power transmission line",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "2"
+    },
+    "ACCU-WA-004": {
+      "title": "Capture and combustion of methane in landfill gas from legacy waste: upgrade projects (2012)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0108": {
+      "title": "Interconnection between electricity systems for energy exchange",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-009": {
+      "title": "Gold Standard Methodology for Thermal performance improvements in low-income dwelling structures",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0003": {
+      "title": "Simplified financial analysis for landfill gas capture projects",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-FO-005": {
+      "title": "Methodology for the Implementation of REDD+ Projects Consistent with National Reference Levels",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0374": {
+      "title": "Introduction of low resistivity wire or cable to new or existing power line",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-AG-006": {
+      "title": "Argentina Livestock",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0006": {
+      "title": "Electricity and heat generation from biomass",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "CAR-WA-002": {
+      "title": "Mexico Landfill",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0003": {
+      "title": "Methodology for Carbon Removals in Private Conservation Areas",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0099": {
+      "title": "Installation of a new natural gas fired gas turbine to an existing CHP plant",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.R.": {
+      "title": "Energy efficiency space heating measures for residential buildings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.BO.": {
+      "title": "Trip avoidance through equipment improvement of freight transport",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AMS-III.AV.": {
+      "title": "Low greenhouse gas emitting safe drinking water production systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "GS-EN-004": {
+      "title": "The Gold Standard Simplified Methodology for Clean and Efficient Cookstoves",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AQ.": {
+      "title": "Introduction of Bio-CNG in transportation applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AM0072": {
+      "title": "Fossil Fuel Displacement by Geothermal Resources for Space Heating",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "CAR-EN-001": {
+      "title": "Mexico Boiler",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-011": {
+      "title": "Source separated organic waste method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0022": {
+      "title": "Avoided Wastewater and On-site Energy Use Emissions in the Industrial Sector",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-007": {
+      "title": "Measurement based methods for new farm forestry plantations method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0011": {
+      "title": "Methodology for Avoided Deforestation on Smallholdings",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-FO-005": {
+      "title": "U.S. Urban Forest Management",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0089": {
+      "title": "Production of diesel using a mixed feedstock of gasoil and vegetable oil",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "5"
+    },
+    "ISO-OC-001": {
+      "title": "Direct Ocean Capture and Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0028": {
+      "title": "N2O destruction in the tail gas of Caprolactam production plants",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "GCCMA002": {
+      "title": "GCC NBS Methodology for Project Activities on Degraded Mangrove Habitats",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0010": {
+      "title": "Methodology for Peatland Restoration",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0377": {
+      "title": "Energy saving through the use of the reverse osmosis technology in the water desalination process",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0010": {
+      "title": "Improved Forest Management: Conversion from Logged to Protected Forest",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0029": {
+      "title": "Avoided Forest Degradation through Fire Management",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-002": {
+      "title": "Reforestation by environmental or mallee plantings FullCAM method 2024",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-004": {
+      "title": "Methane emissions reduction from enteric fermentation in beef cattle through application of feed supplements",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0039": {
+      "title": "CarbonFix A/R baseline and monitoring methodology for multiple baseline land uses and leakage settings",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0008": {
+      "title": "Industrial fuel switching from coal and petroleum fuels to natural gas without extension of capacity and lifetime of the facility",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0041": {
+      "title": "Mitigation of Methane Emissions in the Wood Carbonization Activity for Charcoal Production",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.L.": {
+      "title": "Avoidance of methane production from biomass decay through controlled pyrolysis",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "VM0017": {
+      "title": "Adoption of Sustainable Agricultural Land Management",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.W.": {
+      "title": "Methane capture and destruction in non-hydrocarbon mining activities",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.BN.": {
+      "title": "Efficient operation of public transportation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AMS-I.C.": {
+      "title": "Thermal energy production with or without electricity",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "GS-WA-001": {
+      "title": "Methodology for animal manure management and biogas use for thermal energy generation",
+      "family": "GS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "GS-IN-001": {
+      "title": "Methodology to Estimate and Verify ADALYs from Cleaner Household Air",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0109": {
+      "title": "Introduction of hot supply of Direct Reduced Iron in Electric Arc Furnaces",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.J.": {
+      "title": "Demand-side activities for efficient lighting technologies",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "SCM0007": {
+      "title": "Methodology for the treatment of Harmful Algae Blooms",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-006": {
+      "title": "Restoration of Pocosin Wetlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-CS-004": {
+      "title": "Bio-oil Geological Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-CS-001": {
+      "title": "U.S. and Canada Biochar",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0047": {
+      "title": "Afforestation, Reforestation, and Revegetation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0002": {
+      "title": "Methane emission reduction by adjusted water management practice in rice cultivation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-009": {
+      "title": "Plantation forestry (2017)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-FO-002": {
+      "title": "Mexico Forest",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0038": {
+      "title": "Electric Vehicle Charging Systems",
+      "family": "VCS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AM0106": {
+      "title": "Energy efficiency improvements of a lime production facility through installation of new kilns",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCMA001": {
+      "title": "GCC NBS Methodology for Forestry Project Activities on Lands except Wetlands",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BH.": {
+      "title": "Displacement of production of brick and cement by manufacture and installation of gypsum concrete wall panels",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "6"
+    },
+    "VM0021": {
+      "title": "Soil Carbon Quantification Methodology",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0001": {
+      "title": "Refrigerant Leak Detection",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0039": {
+      "title": "Use of Foam Stabilized Base and Emulsion Asphalt Mixtures in Pavement Application",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AW.": {
+      "title": "Electrification of rural communities by grid extension",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "2"
+    },
+    "ISO-WA-001": {
+      "title": "Wastewater Alkalinity Enhancement",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BI.": {
+      "title": "Flare gas recovery in gas treating facilities",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "10"
+    },
+    "AMS-III.AL.": {
+      "title": "Conversion from single cycle to combined cycle power generation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-CS-002": {
+      "title": "Carbonated Materials",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.J.": {
+      "title": "Solar water heating systems (SWH)",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0034": {
+      "title": "Canadian Forest Carbon Offset Methodology",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0012": {
+      "title": "Improved Forest Management in Temperate and Boreal Forests (LtPF)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-003": {
+      "title": "Avoided emissions from diverting legacy waste methods",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.G.": {
+      "title": "Plant oil production and use for energy generation in stationary applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "ACCU-EN-003": {
+      "title": "Industrial electricity and fuel efficiency",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-FO-296": {
+      "title": "Methodology M/LU-REDD+ consistent with international agreements under the UNFCCC",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0054": {
+      "title": "Energy efficiency improvement of a boiler by introducing oil/water emulsion technology",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0055": {
+      "title": "Recovery and utilization of waste gas in refinery or gas plant",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BA.": {
+      "title": "Recovery and recycling of materials from E-waste",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "GS-EN-013": {
+      "title": "Thermal energy from plant oil for the user of cooking stoves",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0125": {
+      "title": "Production of geopolymer cement",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "6"
+    },
+    "VM0014": {
+      "title": "Interception and Destruction of Fugitive Methane from Coal Bed Methane (CBM) Seeps",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0002": {
+      "title": "Greenhouse gas emission reductions through landfill gas capture and flaring where the baseline is established by a public concession contract",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.P.": {
+      "title": "Energy efficient pump-set for agriculture use",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ISO-CS-001": {
+      "title": "Biochar Production and Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0008": {
+      "title": "Biomethanisation Plants",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0050": {
+      "title": "Feed switch in integrated Ammonia-urea manufacturing industry",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.Z.": {
+      "title": "Fuel Switch, process improvement and energy efficiency in brick manufacture",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "4"
+    },
+    "AM0007": {
+      "title": "Analysis of the least-cost fuel option for seasonally-operating biomass cogeneration plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-001": {
+      "title": "Reducing methane emissions from landfill gas method 2025",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0060": {
+      "title": "Power saving through replacement by energy efficient chillers",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "ACCU-WA-008": {
+      "title": "Enclosed mechanical processing and composting alternative waste treatment (2013)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-010": {
+      "title": "Landfill gas generation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-IN-002": {
+      "title": "Certified Reclaimed HFC Refrigerants, Propellants, and Fire Suppressants",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0123": {
+      "title": "Renewable energy generation for captive use",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AMS-II.G.": {
+      "title": "Energy efficiency measures in thermal applications of non-renewable biomass",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "AMS-II.C.": {
+      "title": "Demand-side energy efficiency activities for specific technologies",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "AMS-III.AN.": {
+      "title": "Fossil fuel switch in existing manufacturing industries",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BL.": {
+      "title": "Integrated methodology for electrification of communities",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "GS-TR-004": {
+      "title": "Reducing Vessel Emissions Through the Use of Advanced Hull Coatings",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BJ.": {
+      "title": "Destruction of hazardous waste using plasma technology including energy recovery",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "AM0001": {
+      "title": "Decomposition of fluoroform (HFC-23) waste streams",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0083": {
+      "title": "Avoidance of landfill gas emissions by in-situ aeration of landfills",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0085": {
+      "title": "Co-firing of biomass residues for electricity generation in grid connected power plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0103": {
+      "title": "Renewable energy power generation in isolated grids",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "ACCU-IN-004": {
+      "title": "Destruction of methane methods",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-005": {
+      "title": "Capture and combustion of methane in landfill gas from legacy waste (2012)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0022": {
+      "title": "Alternative waste treatment processes",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM007": {
+      "title": "Methodology for private carpooling for long-distance inter-urban travel",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0008": {
+      "title": "Abatement of methane from coal mines",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "8"
+    },
+    "AM0094": {
+      "title": "Distribution of biomass based stove and/or heater for household or institutional use",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "AM0088": {
+      "title": "Air separation using cryogenic energy recovered from the vaporization of LNG",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0052": {
+      "title": "Increased electricity generation from existing hydropower stations through Decision Support System optimization",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "CAR-WA-004": {
+      "title": "U.S. Organic Waste Composting",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0005": {
+      "title": "Installation of Low-Flow Water Devices",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-TR-001": {
+      "title": "Aviation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-006": {
+      "title": "Diversion of legacy waste to an alternative waste treatment facility (2013)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-FO-004": {
+      "title": "U.S. Forest",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-002": {
+      "title": "Beef cattle herd management method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0010": {
+      "title": "Improved Forest Management (IFM) and Avoided Planned Forest Conversion (APFC)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-CS-005": {
+      "title": "Direct Air Capture",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0006": {
+      "title": "Afforestation/Reforestation with Trees Supported by Shrubs on Degraded Land",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0107": {
+      "title": "New natural gas based cogeneration plant",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-TR-005": {
+      "title": "Installation of Flow Improvement Equipment on Ships",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-005": {
+      "title": "Reducing Methane Emissions from Enteric Fermentation in Dairy Cows through Application of Feed Supplements",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.N.": {
+      "title": "Demand-side energy efficiency activities for installation of energy efficient lighting and/or controls in buildings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "RBW-GN-003": {
+      "title": "Battery second life",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0034": {
+      "title": "Catalytic reduction of N2O inside the ammonia burner of nitric acid plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0030": {
+      "title": "Pavement Application using Sulphur Substitute",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0036": {
+      "title": "Use of biomass in heat generation equipment",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "CAR-FO-003": {
+      "title": "Panama Forest",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0029": {
+      "title": "Baseline Methodology for Grid Connected Electricity Generation Plants using Natural Gas",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM003": {
+      "title": "Methodology for Energy Generation from Animal Manure and Waste Management Projects",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-IN-002": {
+      "title": "Gold Standard Methodology for Accreditation of Water Benefit Certificates",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0064": {
+      "title": "Capture and utilisation or destruction of mine methane (excluding coal mines) or non mine methane",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.I.": {
+      "title": "Efficient utilization of waste energy in industrial facilities",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ISO-WA-002": {
+      "title": "Landfill Methane Flaring and Utilization",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AT.": {
+      "title": "Transportation energy efficiency activities installing digital tachograph systems to commercial freight transport fleets",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "TREES": {
+      "title": "The REDD+ Environmental Excellence Standard",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0111": {
+      "title": "Abatement of fluorinated greenhouse gases in semiconductor manufacturing",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "AR-AM0013": {
+      "title": "Afforestation and reforestation of lands other than wetlands",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM002": {
+      "title": "Methodology for Energy Saving in Pumping Systems",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-011": {
+      "title": "Land and sea",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-IN-004": {
+      "title": "Destruction of Ozone Depleting Substances from International Sources",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0018": {
+      "title": "Electricity generation from biomass in power-only plants",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "SCM0006": {
+      "title": "Methodology for the Conservation of Areas of Biodiversity Importance",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-004": {
+      "title": "Improved Forest Management (IFM) on Non-Federal U.S. Forestlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0070": {
+      "title": "Manufacturing of energy efficient domestic refrigerators",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0026": {
+      "title": "Carbon Sequestration in Small and Medium Farms in the Brunca Region, Costa Rica (COOPEAGRI- Project)",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.G.": {
+      "title": "Landfill methane recovery",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "ACCU-FO-011": {
+      "title": "Reforestation by environmental or mallee plantings FullCAM",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.A.": {
+      "title": "Electricity generation by the user",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0018": {
+      "title": "Energy Efficiency and Solid Waste Diversion Activities within a Sustainable Community",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-IN-002": {
+      "title": "Article 5 Ozone Depleting Substances",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-002": {
+      "title": "Alternative waste treatment",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.D.": {
+      "title": "Methane recovery in animal manure management systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "GS-EN-006": {
+      "title": "Methodology for metered & measured energy cooking devices",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0044": {
+      "title": "Biochar Utilization in Soil and Non-Soil Applications",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0031": {
+      "title": "Precast Concrete Production using Sulphur Substitute",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-CS-007": {
+      "title": "Open System Ex-situ Mineralization",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.K.": {
+      "title": "Installation of co-generation or tri-generation systems supplying energy to commercial building",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.BE.": {
+      "title": "Avoidance of methane and nitrous oxide emissions from sugarcane pre-harvest open burning through mulching",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "CAR-IN-005": {
+      "title": "U.S. Nitric Acid Production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0119": {
+      "title": "SF6 emission reductions in gas insulated metal enclosed switchgear",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0044": {
+      "title": "Energy efficiency improvement projects - boiler rehabilitation or replacement in industrial and district heating sectors",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "AMS-III.K.": {
+      "title": "Avoidance of methane release from charcoal production",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "GCCM005": {
+      "title": "Methodology for Desalinated Water Savings in Buildings",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.B.": {
+      "title": "Mechanical energy for the user with or without electrical energy",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "CER-FO-003": {
+      "title": "Modular Methodology for Climate Change Mitigation Activities on Forest Lands and Wetlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-OC-002": {
+      "title": "Microalgae Carbon Fixation and Sinking",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-AG-008": {
+      "title": "Mexico Livestock",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-GN-001": {
+      "title": "Bio-based Construction Materials",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0040": {
+      "title": "Greenhouse Gas Capture and Utilization in Plastic Materials, v1.0 (Inactive)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.H.": {
+      "title": "Methane recovery in wastewater treatment",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "RBW-AG-001": {
+      "title": "Enhanced rock weathering",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0032": {
+      "title": "waste gas or waste heat based cogeneration system",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0013": {
+      "title": "Construction and operation of new grid connected fossil fuel fired power plants using a less GHG intensive technology",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-AG-001": {
+      "title": "Enhanced Rock Weathering",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-CS-003": {
+      "title": "Biomass Geological Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0386": {
+      "title": "GHG emission reductions through comprehensive animal manure management systems",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0376": {
+      "title": "Extraction of methane from virgin coal bed CBM Blocks before mining activity",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0078": {
+      "title": "Point of Use Abatement Device to Reduce SF6 emissions in LCD Manufacturing Operations",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0380": {
+      "title": "Recovery of methane-rich vapours from hydrocarbon storage tanks, separators or stabilization containers",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-003": {
+      "title": "Feeding nitrates to beef cattle",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0019": {
+      "title": "N2O abatement from nitric acid production",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "5"
+    },
+    "AMS-II.E.": {
+      "title": "Energy efficiency and fuel switching measures for buildings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "AMS-III.F.": {
+      "title": "Avoidance of methane emissions through composting",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "BC-AG-001": {
+      "title": "Soil Carbon Protocol",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0112": {
+      "title": "Less carbon intensive power generation through continuous reductive distillation of waste",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AM0020": {
+      "title": "Baseline methodology for water pumping efficiency improvements",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-ACM0001": {
+      "title": "Afforestation and reforestation of degraded land",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0071": {
+      "title": "Manufacturing and servicing of domestic and/or small commercial refrigeration appliances using a low GWP refrigerant",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "11"
+    },
+    "GS-FO-001": {
+      "title": "Afforestation \u2013 reforestation GHG emissions reductions & sequestration methodology",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0096": {
+      "title": "CF4 emission reduction from installation of an abatement system in a semiconductor manufacturing facility",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0009": {
+      "title": "Afforestation or reforestation on degraded land allowing for silvopastoral activities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-002": {
+      "title": "Gold Standard Agriculture Methodology for Increasing Soil Carbon Through Improved Tillage Practices",
+      "family": "GS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-II.Q.": {
+      "title": "Energy efficiency and/or energy supply projects in commercial buildings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-I.I.": {
+      "title": "Biogas/biomass thermal applications for households/small users",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "CAR-AG-002": {
+      "title": "U.S. Grassland",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM009": {
+      "title": "Methodology for Renewable Energy Generation for Third-Party Consumer(s)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.P.": {
+      "title": "Recovery and utilization of waste gas in refinery facilities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.M.": {
+      "title": "Solar power for domestic aircraft at-gate operations",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0024": {
+      "title": "Coastal Wetland Creation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0389": {
+      "title": "Renewable energy storage and supply to the electricity grid",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0033": {
+      "title": "Reforestation of grasslands using fast-growing species in Brazil",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-012": {
+      "title": "Coal mine waste gas",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0049": {
+      "title": "Carbon Capture and Storage",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0012": {
+      "title": "Waste energy recovery",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "SCM0009": {
+      "title": "Methodology for Afforestation, Reforestation, Revegetation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-010": {
+      "title": "Reforestation and afforestation methods",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-008": {
+      "title": "Indicative Program, Baseline and Monitoring Methodology for the Large Scale Supply & Distribution of Efficient Light Bulbs, Shower Heads and Other Water Saving Devices to Households",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0016": {
+      "title": "Destruction of Ozone-Depleting Substances and Hydrofluorocarbons",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-015": {
+      "title": "Fuel switch from fossil fuels to biomass residues in boilers for heat generation",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AG.": {
+      "title": "Switching from high carbon intensive grid electricity to low carbon intensive fossil fuel",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0007": {
+      "title": "REDD+ Methodology Framework (REDD+MF)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-003": {
+      "title": "Methane Emission Reduction by adjusted Water management practice in rice cultivation",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-ACM0003": {
+      "title": "Afforestation and reforestation of lands except wetlands",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "14"
+    },
+    "CER-EN-001": {
+      "title": "Methodology M/EE-EG001 Implementation of GHG Emission Reduction Projects Through Renewable Energy Use for Electric Power Generation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-WA-006": {
+      "title": "GHG Emission Reductions from Manure Management Systems and Municipal Solid Waste",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-007": {
+      "title": "Gold Standard Quantification of climate related emission reductions of Black Carbon and Co-emitted Species due to the replacement of less efficient cookstoves with improved efficiency cookstoves",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0372": {
+      "title": "Recovery of Coke oven gas for production of LNG",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.O.": {
+      "title": "Dissemination of energy efficient household appliances",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ACCU-IN-007": {
+      "title": "Savanna fire management methods 2018",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0011": {
+      "title": "Fuel switching from coal and/or petroleum fuels to natural gas in existing power plants for electricity generation",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "GS-EN-001": {
+      "title": "Emission reductions from Safe Drinking Water Supply",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0028": {
+      "title": "Reforestation on degraded land for sustainable wood production of woodchips in the eastern coast of the Democratic Republic of Madagascar.",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0002": {
+      "title": "Grid-connected electricity generation from renewable sources",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "ACM0017": {
+      "title": "Production of biofuel",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "GCCMT001": {
+      "title": "Methodology for Project Activities involving the Capture, Transport, and Geological Storage of Carbon Dioxide",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0121": {
+      "title": "Emission reduction from partial switching of raw materials and increasing the share of additives in the production of blended cement",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "4"
+    },
+    "AMS-III.T.": {
+      "title": "Plant oil production and use for transport applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AM0026": {
+      "title": "zero-emissions grid-connected electricity generation from renewable sources in Chile or in countries with merit order based dispatch grid",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0003": {
+      "title": "High Mountain Ecosystems",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-005": {
+      "title": "Programme, baseline and monitoring methodology for the introduction of an alternative ignition technique as measure to improve the energy efficiency of domestic coal fires",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0032": {
+      "title": "\u201cSan Carlos\u201d Land Restoration Through Silvopastoral Systems",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0113": {
+      "title": "Distribution of compact fluorescent lamps (CFL) and light-emitting diode (LED) lamps to households",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "VM0006": {
+      "title": "Carbon Accounting for Mosaic and Landscape-scale REDD Projects",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BC.": {
+      "title": "Emission reductions through improved efficiency of vehicle fleets",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "ACM0007": {
+      "title": "Conversion from single cycle to combined cycle power generation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0050": {
+      "title": "Energy Efficiency and Fuel-Switch Measures in Cookstoves",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0100": {
+      "title": "Integrated Solar Combined Cycle (ISCC) projects",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0031": {
+      "title": "Bus rapid transit projects",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "7"
+    },
+    "AM0074": {
+      "title": "new grid connected power plants using permeate gas previously flared and/or vented",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-FO-001": {
+      "title": "Guatemala Forest",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0035": {
+      "title": "SF6 emission reductions in electrical grids",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "VMR0017": {
+      "title": "Grid-connected electricity generation from renewable sources (ACM0002 Revision)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BF.": {
+      "title": "Reduction of N2O emissions from use of Nitrogen Use Efficient (NUE) seeds that require less fertilizer application",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "CAR-AG-004": {
+      "title": "U.S. Rice Cultivation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0056": {
+      "title": "Efficiency improvement by boiler replacement or rehabilitation and optional fuel switch in fossil fuel-fired steam boiler systems",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0124": {
+      "title": "Hydrogen production from electrolysis of water",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AMS-III.M.": {
+      "title": "Reduction in consumption of electricity by recovering soda from paper manufacturing process",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.A.": {
+      "title": "Supply side energy efficiency improvements \u2013 transmission and distribution",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "CAR-IN-003": {
+      "title": "Mexico Halocarbon",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0019": {
+      "title": "Fuel Switch from Gasoline to Ethanol in Flex-Fuel Vehicle Fleets",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0375": {
+      "title": "Gas insulated metal enclosed switchgear SF6 emission reduction measurement and monitoring methodology",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0030": {
+      "title": "PFC emission reductions from anode effect mitigation at primary aluminium smelting facilities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0031": {
+      "title": "The Namwasa Forestation Project",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PCC-PEATLAND-001": {
+      "title": "Peatland Restoration (Bogs and Fens)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-WA-004": {
+      "title": "Reduction in methane emissions from landfills through decentralised organic waste processing",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-TR-001": {
+      "title": "Emission reduction by shore-side or off-shore electricity supply system",
+      "family": "GS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ACCU-FO-006": {
+      "title": "Human-induced regeneration of a permanent even-aged native forest \u2013 1.1 (2013)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0004": {
+      "title": "Continental Wetlands Orinoquia",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AA.": {
+      "title": "Transportation Energy Efficiency Activities using Retrofit Technologies",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.BM.": {
+      "title": "Lightweight two and three wheeled personal transportation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "CER-OC-001": {
+      "title": "Methodology CM-LU-CW-001 Blue Carbon Methodology for Mitigation of Climate Change in Coastal Wetland",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0002": {
+      "title": "Restoration of degraded lands through afforestation/reforestation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0020": {
+      "title": "Co-firing of biomass residues for heat generation and/or electricity generation in grid connected power plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-005": {
+      "title": "Reducing greenhouse gas emissions by feeding dietary additives to milking cows",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-FO-006": {
+      "title": "U.S. Urban Tree Planting",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BC-FO-001": {
+      "title": "Forest Carbon Protocol",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-EN-002": {
+      "title": "High efficiency commercial appliances method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0004": {
+      "title": "Consolidated methodology for waste gas and/or heat for power generation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-WA-001": {
+      "title": "Landfill Gas Destruction and Beneficial Use Projects",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BK.": {
+      "title": "Strategic feed supplementation in smallholder dairy sector to increase productivity",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "VM0045": {
+      "title": "Improved Forest Management Using Dynamic Matched Baselines from National Forest Inventories",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0005": {
+      "title": "Afforestation and reforestation project activities implemented for industrial and/or commercial uses",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0043": {
+      "title": "CO2 Utilization in Concrete Production",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AM.": {
+      "title": "Fossil fuel switch in a cogeneration/trigeneration system",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-013": {
+      "title": "Designated verified carbon standard projects",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-FO-001": {
+      "title": "REDD+ Methodology for the Implementation of REDD+ Projects Consistent with National Reference Levels",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-WA-003": {
+      "title": "U.S. Landfill",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0024": {
+      "title": "SAN NICOL\u00c1S CDM REFORESTATION PROJECT",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AE.": {
+      "title": "Energy efficiency and renewable energy measures in new residential buildings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "ISO-FO-002": {
+      "title": "Agroforestry",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0065": {
+      "title": "Replacement of SF6 with alternate cover gas in the magnesium industry",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.A.": {
+      "title": "Offsetting of synthetic nitrogen fertilizers by inoculant application in legumes-grass rotations on acidic soils on existing cropland",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "ACM0021": {
+      "title": "Reduction of emissions from charcoal production by improved kiln design and/or abatement of methane",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-FO-004": {
+      "title": "Methodology for the Implementation of REDD+ Projects Consistent with the Reference Levels Submitted by Colombia to the UNFCCC",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0011": {
+      "title": "Landfill gas recovery with electricity generation and no capture or destruction of methane in the baseline scenario",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0008": {
+      "title": "Afforestation or reforestation on degraded land for sustainable wood production",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-AG-007": {
+      "title": "Dominican Republic Livestock",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-EN-001": {
+      "title": "Aggregated small energy users",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0012": {
+      "title": "Production of Geopolymer Cement",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0081": {
+      "title": "Flare or vent reduction at coke plants through the conversion of their waste gas into dimethyl ether for use as a fuel",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0022": {
+      "title": "Quantifying N2O Emissions Reductions in Agricultural Crops through Nitrogen Fertilizer Rate Reduction",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-006": {
+      "title": "Gold Standard Agriculture Smallholder Dairy Methodology",
+      "family": "GS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ISO-CS-006": {
+      "title": "Electrolytic Seawater Mineralization",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0009": {
+      "title": "Fuel switching from coal or petroleum fuel to natural gas",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "VM0026": {
+      "title": "Sustainable Grassland Management (SGM)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-IN-006": {
+      "title": "Reduction of greenhouse gas methods",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.D.": {
+      "title": "Energy efficiency and fuel switching measures for industrial facilities",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "4"
+    },
+    "AMS-III.AJ.": {
+      "title": "Recovery and recycling of materials from solid wastes",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "VM0032": {
+      "title": "the Adoption of Sustainable Grasslands through Adjustment of Fire and Grazing",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-IN-001": {
+      "title": "HFC and ODS Recovery and Destruction",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-AG-001": {
+      "title": "Canada Grassland",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-002": {
+      "title": "Reduced emissions from cooking and heating \u2013 Technologies and Practices to displace Decentralised Thermal Energy Consumption (TPDDTEC)",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0005": {
+      "title": "Methodology for regenerative land management",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-008": {
+      "title": "Native forest from managed regrowth method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0042": {
+      "title": "Improved Agricultural Land Management",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0048": {
+      "title": "New cogeneration project activities supplying electricity and heat to multiple customers",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "VM0008": {
+      "title": "Weatherization of Single Family and Multi-Family Buildings",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0046": {
+      "title": "Distribution of efficient light bulbs to households",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "3"
+    },
+    "VM0051": {
+      "title": "Improved Management in Rice Production Systems",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BG.": {
+      "title": "Emission reduction through sustainable charcoal production and consumption",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "5"
+    },
+    "AM0024": {
+      "title": "Baseline methodology for greenhouse gas reductions through waste heat recovery and utilization for power generation at cement plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0012": {
+      "title": "Afforestation or reforestation of degraded or abandoned agricultural lands",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0061": {
+      "title": "rehabilitation and/or energy efficiency improvement in existing power plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-CS-003": {
+      "title": "Geologically Stored Carbon",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-CS-001": {
+      "title": "Estimating soil organic carbon sequestration using measurement and models method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-AG-001": {
+      "title": "Enhanced Weathering in Agriculture",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0023": {
+      "title": "Introduction of an efficiency improvement technology in a boiler",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AM0079": {
+      "title": "Recovery of SF6 from Gas insulated electrical equipment in testing facilities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0011": {
+      "title": "Calculating GHG Benefits from Preventing Planned Degradation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0003": {
+      "title": "Partial substitution of fossil fuels in cement or quicklime manufacture",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "CER-FO-012": {
+      "title": "CM-LU-002 Integrated methodology Reforestation, Forest Restoration, Revegetation and Establishment of Woody Agricultural Crops",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.N.": {
+      "title": "Avoidance of HFC emissions in rigid Poly Urethane Foam (PUF) manufacturing",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.Q.": {
+      "title": "Waste energy recovery",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-IN-002": {
+      "title": "Industrial equipment upgrade method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0092": {
+      "title": "Substitution of PFC gases for cleaning Chemical Vapour Deposition (CVD) reactors in the semiconductor industry",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "CER-WA-001": {
+      "title": "Methodology for Projects for the Destruction and Utilisation of Biogas from Landfill Sites",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-CS-002": {
+      "title": "Biogenic Carbon Capture and Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-004": {
+      "title": "Avoided deforestation 1 (2015)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0009": {
+      "title": "Soil Organic Carbon",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0001": {
+      "title": "Flaring or use of landfill gas",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "VM0003": {
+      "title": "Improved Forest Management through Extension of Rotation Age",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-IN-005": {
+      "title": "Refrigeration and ventilation fans method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-012": {
+      "title": "Avoided clearing of native regrowth",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0077": {
+      "title": "Recovery of gas from oil wells that would otherwise be vented or flared and its delivery to specific end-users",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "RBW-GN-001": {
+      "title": "Refurbishing of electronic devices",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0013": {
+      "title": "Calculating Emission Reductions from Jet Engine Washing",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-TR-002": {
+      "title": "Methodology for Marine Fuels and Biobunkers",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.I.": {
+      "title": "Avoidance of methane production in wastewater treatment through replacement of anaerobic systems by aerobic systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AM0101": {
+      "title": "High speed passenger rail systems",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "7"
+    },
+    "AM0015": {
+      "title": "Bagasse-based cogeneration connected to an electricity grid",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-FO-001": {
+      "title": "Reforestation",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0084": {
+      "title": "Installation of cogeneration system supplying electricity and chilled water to new and existing consumers",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "NM0387": {
+      "title": "Plugging of orphan, idle and abandoned oil and gas wells",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0057": {
+      "title": "Avoided emissions from biomass wastes through use as feed stock in pulp and paper, cardboard, fibreboard or bio-oil production",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.M.": {
+      "title": "Demand-side energy efficiency activities for installation of low-flow hot water savings devices",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-006": {
+      "title": "Commercial and public lighting",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BD.": {
+      "title": "GHG emission reduction due to supply of molten metal instead of ingots for aluminium castings",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "GS-WA-002": {
+      "title": "Methodology for Biodiesel from waste oil/fat from biogenic origin for use as fuel",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "SCM0001": {
+      "title": "Methodology for the installation of Energy Efficient Cookstoves",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-WA-005": {
+      "title": "U.S. Organic Waste Digestion",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AX.": {
+      "title": "Methane oxidation layer (MOL) for solid waste disposal sites",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CCB-001": {
+      "title": "Climate, Community & Biodiversity Standards",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-TR-003": {
+      "title": "Retrofit Energy Efficiency Measures in Shipping",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BP.": {
+      "title": "Emission reduction by shore-side electricity supply system",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AM0004": {
+      "title": "Grid-connected biomass power generation that avoids uncontrolled burning of biomass",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.F.": {
+      "title": "Energy efficiency and fuel switching measures for agricultural facilities and activities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0012": {
+      "title": "Blue Carbon",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AO.": {
+      "title": "Methane recovery through controlled anaerobic digestion",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0028": {
+      "title": "Carpooling",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0027": {
+      "title": "'Treinta y Tres' afforestation on grassland",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.T.": {
+      "title": "Emission reduction through reactive power compensation in power distribution network",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "2"
+    },
+    "ACM0024": {
+      "title": "Natural gas substitution by biogenic methane produced from the anaerobic digestion of organic waste",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "VM0046": {
+      "title": "Reducing Food Loss and Waste",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0014": {
+      "title": "Electric and Hybrid Vehicles and Mobile Machinery (AMS-III.C. Revision)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-AG-001": {
+      "title": "Measurement of soil carbon sequestration in agricultural systems method (2018)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0105": {
+      "title": "Energy efficiency in data centres through dynamic power management",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0014": {
+      "title": "Fossil fuel based cogeneration for identified recipient facility(ies)",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "ACCU-IN-001": {
+      "title": "Industrial and commercial emissions reduction method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0023": {
+      "title": "Reduction of GHG Emissions in Propylene Oxide Production",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-EN-001": {
+      "title": "Subsurface Biomass Carbon Removal and Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0040": {
+      "title": "Baseline and monitoring methodology for project activities using alternative raw materials that contain carbonates in clinker manufacturing in cement kilns",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-AG-002": {
+      "title": "Rice Methane Reduction",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-CS-001": {
+      "title": "Biomass Fermentation with Carbon Capture and Geologic storage",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0082": {
+      "title": "Use of charcoal from planted renewable biomass in a new iron ore reduction system",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "9"
+    },
+    "AMS-III.B.": {
+      "title": "Switching fossil fuels",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "ISO-FO-003": {
+      "title": "Improved Forest Management",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-CS-003": {
+      "title": "Estimating sequestration of carbon in soil using default values (2015)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.U.": {
+      "title": "Cable Cars for Mass Rapid Transit System (MRTS)",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "AM0102": {
+      "title": "Greenfield cogeneration facility supplying electricity and steam to a Greenfield Industrial Consumer and exporting excess electricity to a grid and/or project customer(s)",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-OC-003": {
+      "title": "River Alkalinity Enhancement",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-001": {
+      "title": "Plantation forestry method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "RBW-CS-001": {
+      "title": "Mineralization of alkaline materials (ex situ)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-010": {
+      "title": "Emissions abatement through savanna fire management 2015",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0073": {
+      "title": "GHG emission reductions through multi-site manure collection and treatment in a central plant",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-AG-008": {
+      "title": "Sustainable Sugarcane Initiative Methodology to Quantify Water Efficiency Outcomes from Seedling Nurseries",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "RBW-EN-001": {
+      "title": "Biomass carbon removal and storage (BiCRS)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-EN-002": {
+      "title": "Methodology for GHG emission reduction projects through fuel-switching efficiency improvements in terrestrial transport",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.R.": {
+      "title": "Methane recovery from livestock and manure management at households and small farms",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "AM0097": {
+      "title": "Installation of high voltage direct current power transmission line",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-EN-001": {
+      "title": "Terrestrial Storage of Biomass",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BB.": {
+      "title": "Electrification of communities through grid extension or construction of new mini-grids",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "2"
+    },
+    "CER-FO-002": {
+      "title": "Methodology to Implement GHG Removal Projects Through Reforestation, Forest Restoration and the Establishment of Woody Crops",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AS.": {
+      "title": "Switch from fossil fuel to biomass in existing manufacturing facilities for non-energy applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "2"
+    },
+    "AM0090": {
+      "title": "Modal shift in transportation of cargo from road transportation to water or rail transportation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0002": {
+      "title": "REDD+ Projects",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0087": {
+      "title": "Construction of a new natural gas power plant supplying electricity to the grid or a single consumer",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0036": {
+      "title": "Rubber outgrowing and carbon sequestration in Ghana (ROCS-Ghana)",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-009": {
+      "title": "Landfill gas",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-005": {
+      "title": "Improved Forest Management (IFM) on Small Non-Industrial Private Forestlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0021": {
+      "title": "Baseline Methodology for decomposition of N2O from existing adipic acid production plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-016": {
+      "title": "Methodology for Reducing Methane Emissions from Combustion Engine Exhaust",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0005": {
+      "title": "Increasing the blend in cement production",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AB.": {
+      "title": "Avoidance of HFC emissions in Standalone Commercial Refrigeration Cabinets",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0067": {
+      "title": "installation of energy efficient transformers in a power distribution grid",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0016": {
+      "title": "Flaring or Use of Landfill Gas (ACM0001 Revision)",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AC.": {
+      "title": "Electricity and/or heat generation using fuel cell",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "CAR-AG-003": {
+      "title": "U.S. Nitrogen Management",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-II.B.": {
+      "title": "Supply side energy efficiency improvements \u2013 generation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AM0104": {
+      "title": "Interconnection of electricity grids in countries with economic merit order dispatch",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "AR-AM0003": {
+      "title": "Afforestation and reforestation of degraded land through tree planting, assisted natural regeneration and control of animal grazing",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-IN-001": {
+      "title": "Advanced Refrigeration Systems",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-OC-001": {
+      "title": "Tidal restoration of blue carbon ecosystems method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0009": {
+      "title": "Avoided Ecosystem Conversion",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0039": {
+      "title": "Methane emissions reduction from organic waste water and bioorganic solid waste using co-composting",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0025": {
+      "title": "Construction of a new natural gas power plant",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "RBW-GN-002": {
+      "title": "Biobased construction materials",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM006": {
+      "title": "Energy Efficiency Measures in existing Centralized Cooling Systems",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.X.": {
+      "title": "Energy Efficiency and HFC-134a Recovery in Residential Refrigerators",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AM0038": {
+      "title": "improved electrical energy efficiency of an existing submerged electric arc furnace used for the production of silicon and ferro alloys",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0033": {
+      "title": "Use of non-carbonated calcium sources in the raw mix for cement processing",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0030": {
+      "title": "Commercial reforestation on lands dedicated to extensive cattle grazing activities in the region of Magdalena Bajo Seco",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-IN-004": {
+      "title": "U.S. Low-Carbon Cement Protocol",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.L.": {
+      "title": "Electrification of rural communities using renewable energy",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "AM0012": {
+      "title": "Biomethanation of municipal solid waste in India, using compliance with MSW rules",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0384": {
+      "title": "Use of Light wood frame to replace and reduce the use of conventional masonry materials in construction of different types of buildings",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-ACM0002": {
+      "title": "Afforestation or reforestation of degraded land without displacement of pre-project activities",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AP.": {
+      "title": "Transport energy efficiency activities using post - fit Idling Stop device",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "NM0370": {
+      "title": "Consolidated baseline and monitoring methodology for project activities using alternative raw materials that do not contain carbonates for soda ash production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0045": {
+      "title": "Grid connection of isolated electricity systems",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AM0019": {
+      "title": "Renewable energy projects replacing part of the electricity production of one single fossil fuel fired power plant that stands alone or supplies to a grid, excluding biomass projects",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-005": {
+      "title": "Human-induced regeneration of a permanent even-aged native forest 1.0 (2013)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AH.": {
+      "title": "Shift from high carbon-intensive fuel mix ratio to low carbon-intensive fuel mix ratio",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "VM0027": {
+      "title": "Rewetting Drained Tropical Peatlands",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BQ.": {
+      "title": "Hydrogen fuel cell vehicles",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "7"
+    },
+    "GS-CS-002": {
+      "title": "Carbon Mineralisation using Reactive Mineral Waste",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ISO-OC-002": {
+      "title": "Ocean Alkalinity Enhancement from Coastal Outfalls",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0036": {
+      "title": "Rewetting Drained Temperate Peatlands",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0025": {
+      "title": "Selva Central Climate Action Project",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0371": {
+      "title": "Displacement of more intensive GHG fossil fuels with Natural gas in electric grids that face natural gas supply shortage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PM002": {
+      "title": "Methodology for Quantifying Carbon Benefits from Small-Scale Agroforestry",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0053": {
+      "title": "Biogenic methane injection to a natural gas distribution grid",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0062": {
+      "title": "Energy efficiency improvements of a power plant through retrofitting turbines",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0086": {
+      "title": "Distribution of low greenhouse gas emitting water purification systems for safe drinking water",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "AM0006": {
+      "title": "GHG emission reductions from manure management systems",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.Y.": {
+      "title": "Methane avoidance through separation of solids from wastewater or manure treatment systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "AM0059": {
+      "title": "Reduction in GHGs emission from primary aluminium smelters",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "9"
+    },
+    "AM0037": {
+      "title": "Flare (or vent) reduction and utilization of gas from oil wells as a feedstock",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "10"
+    },
+    "CAR-AG-005": {
+      "title": "U.S. Soil Enrichment",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AK.": {
+      "title": "Biodiesel production and use for transport applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "5"
+    },
+    "ACM0026": {
+      "title": "Fossil fuel based cogeneration for identified recipient facility(ies)",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0116": {
+      "title": "Electric taxiing systems for airplanes",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "7"
+    },
+    "GS-FO-002": {
+      "title": "Sustainable Management of Mangroves",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0076": {
+      "title": "Implementation of fossil fuel trigeneration systems in existing industrial facilities",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "VM0052": {
+      "title": "Accelerated Retirement of Coal-Fired Power Plants Using a Just Transition",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0383": {
+      "title": "Emission reduction through re-refining used lubricating oils",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM001": {
+      "title": "Methodology for Renewable Energy Generation Projects Supplying Electricity to Grid or Captive Consumers",
+      "family": "VCS",
+      "corpus_scale": "large",
+      "cdm_scope": null
+    },
+    "ISO-FO-004": {
+      "title": "Mangrove Restoration",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-CS-002": {
+      "title": "Carbon capture and storage method",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0058": {
+      "title": "Introduction of a district heating system",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "AMS-III.S.": {
+      "title": "Introduction of low-emission vehicles/technologies to commercial vehicle fleets",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "VMR0011": {
+      "title": "Switch from Non-Renewable Biomass For Thermal Applications by the User",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0122": {
+      "title": "Recovery of methane-rich vapours from hydrocarbon storage tanks",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "10"
+    },
+    "AM0115": {
+      "title": "Recovery and utilization of coke oven gas from coke plants for LNG production",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "4"
+    },
+    "PURO-OC-001": {
+      "title": "Marine Anoxic Carbon Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0002": {
+      "title": "New Cogeneration Facilities Supplying Less Carbon Intensive Electricity to Grid and/or Hot Water to One or More Grid Customers",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0009": {
+      "title": "Recovery and utilization of gas from oil fields that would otherwise be flared or vented",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "10"
+    },
+    "AR-AM0004": {
+      "title": "Reforestation or afforestation of land currently under agricultural use",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM004": {
+      "title": "Methodology for Water Grid Connected Renewable Energy Based Desalination Plant",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-IN-005": {
+      "title": "Capturing and Destroying Methane from Coal and Trona Mines in North America",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AU.": {
+      "title": "Methane emission reduction by adjusted water management practice in rice cultivation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "VM0005": {
+      "title": "Conversion of Low-Productive Forest to High-Productive Forest",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0014": {
+      "title": "Afforestation and reforestation of degraded mangrove habitats",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "14"
+    },
+    "AMS-II.S.": {
+      "title": "Energy efficiency in motor systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "AM0069": {
+      "title": "Biogenic methane use as feedstock and fuel for town gas production",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.H.": {
+      "title": "Biodiesel production and use for energy generation in stationary applications",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "AM0068": {
+      "title": "improved energy efficiency by modifying ferroalloy production facility",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ARNM0038": {
+      "title": "Afforestation and reforestation of degraded tidal forest habitats",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AD.": {
+      "title": "Emission reductions in hydraulic lime production",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "AMS-III.E.": {
+      "title": "Avoidance of methane production from decay of biomass through controlled combustion, gasification or mechanical/thermal treatment",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "13"
+    },
+    "AMS-III.AR.": {
+      "title": "Substituting fossil fuel based lighting with LED/CFL lighting systems",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "AR-AM0007": {
+      "title": "Afforestation and Reforestation of Land Currently Under Agricultural or Pastoral Use",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0006": {
+      "title": "Energy Efficiency and Fuel Switch Measures in Thermal Applications",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BC-GN-001": {
+      "title": "Methane Emissions Elimination through Well Plugging Protocol",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0015": {
+      "title": "Avoided Unplanned Deforestation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0014": {
+      "title": "Treatment of wastewater",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "1"
+    },
+    "GS-EN-012": {
+      "title": "Suppressed Demand Small-scale Methodology for Energy Use for the Processing of Agricultural Products",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.BS.": {
+      "title": "Application of dry-cultivated water-saving and drought-resistance rice in rice cultivation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "15"
+    },
+    "AM0080": {
+      "title": "Mitigation of greenhouse gases emissions with treatment of wastewater in aerobic wastewater treatment plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0013": {
+      "title": "Conservation and Restoration of Peatland Ecosystems",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0110": {
+      "title": "Modal shift in transportation of liquid fuels",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "7"
+    },
+    "AMS-III.BR.": {
+      "title": "Switching of fuel gas with Nitrogen for pneumatic devices",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "10"
+    },
+    "AMS-II.L.": {
+      "title": "Demand-side activities for efficient outdoor and street lighting technologies",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "3"
+    },
+    "CAR-WA-001": {
+      "title": "Argentina Landfill",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VM0025": {
+      "title": "Campus Clean Energy and Energy Efficiency",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.D.": {
+      "title": "Grid connected renewable electricity generation",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "1"
+    },
+    "AM0066": {
+      "title": "GHG emission reductions through waste heat utilisation for pre-heating of raw materials in sponge iron manufacturing process",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.J.": {
+      "title": "Avoidance of fossil fuel combustion for carbon dioxide production to be used as raw material for industrial processes",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-WA-003": {
+      "title": "Recovery and recycling of materials from solid wastes",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-003": {
+      "title": "Energy-saving through Elevator Regenerative Power System Implementation",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0007": {
+      "title": "Natural Continental Wetlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-I.K.": {
+      "title": "Solar cookers for households",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "ACCU-GN-009": {
+      "title": "Oil and gas fugitives",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0011": {
+      "title": "Sustainable Biochar Production, Carbon Removal and Long-Term Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0381": {
+      "title": "Emission reduction by hydrogen production from renewable energy sources",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0016": {
+      "title": "Mass Rapid Transit Projects",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "7"
+    },
+    "VM0048": {
+      "title": "Reducing Emissions from Deforestation and Forest Degradation",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.O.": {
+      "title": "Hydrogen production using methane extracted from biogas",
+      "family": "CDM",
+      "corpus_scale": "small",
+      "cdm_scope": "5"
+    },
+    "AM0047": {
+      "title": "Production of biodiesel based on waste oils and/or waste fats from biogenic origin for use as fuel",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CER-WA-003": {
+      "title": "Methodology for the Execution of Projects for Capture, Destruction or Use of Biogas Produced in Sanitary Landfills",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-010": {
+      "title": "Suppressed Demand Methodology Micro-scale Electrification and Energization",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-GN-004": {
+      "title": "Fertiliser in irrigated cotton",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-003": {
+      "title": "Improved Forest Management (IFM) on Canadian Forestlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-FO-003": {
+      "title": "Avoided deforestation (2013)",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "VMR0004": {
+      "title": "Improved Efficiency of Fleet Vehicles",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-EN-014": {
+      "title": "Ecologically Sound Fuel Switch to Biomass with Reduced Energy Requirement",
+      "family": "GS",
+      "corpus_scale": "small",
+      "cdm_scope": null
+    },
+    "GS-EN-011": {
+      "title": "Suppressed Demand Small-scale Methodology for Low GHG Food Preservation",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "RBW-WA-001": {
+      "title": "Biogas from anaerobic digestion",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AMS-III.AI.": {
+      "title": "Emission reductions through recovery of spent sulphuric acid",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-FO-002": {
+      "title": "Active Conservation and Sustainable Management on U.S. Forestlands",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0098": {
+      "title": "Utilization of ammonia-plant off gas for steam generation",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-IN-003": {
+      "title": "Savanna fire management methods",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "BCR0001": {
+      "title": "ARR Activities",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "CAR-CS-002": {
+      "title": "China Adipic Acid Production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACM0010": {
+      "title": "GHG emission reductions from manure management systems",
+      "family": "CDM",
+      "corpus_scale": "large",
+      "cdm_scope": "13"
+    },
+    "CAR-CS-003": {
+      "title": "U.S. Adipic Acid Production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0017": {
+      "title": "Steam system efficiency improvements by replacing steam traps and returning condensate",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACR-IN-003": {
+      "title": "Destruction of Ozone Depleting Substances and High-GWP Foam",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0013": {
+      "title": "Avoided methane emissions from organic waste-water treatment",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-WA-007": {
+      "title": "Domestic, commercial and industrial wastewater",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AR-AM0001": {
+      "title": "Reforestation of degraded land",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0049": {
+      "title": "gas based energy generation in an industrial facility",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0051": {
+      "title": "Secondary catalytic N2O destruction in nitric acid plants",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GCCM008": {
+      "title": "Methodology benchmarking of energy efficiency and fuel switching in new and existing buildings",
+      "family": "VCS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-CS-001": {
+      "title": "Biochar",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "GS-WA-005": {
+      "title": "Methodology for collection of sargassum and other macroalgae to avoid emissions from decomposition and to use for beneficial products",
+      "family": "GS",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0010": {
+      "title": "Landfill gas capture and electricity generation projects where landfill gas capture is not mandated by law",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0095": {
+      "title": "Waste gas based combined cycle power plant in a Greenfield iron and steel plant",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "NM0388": {
+      "title": "Use of unutilized CO2 during the manufacturing process of precipitated calcium carbonate (PCC) and the energy reduction in the paper production",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "PURO-CS-004": {
+      "title": "Direct Air Capture and Ocean Storage",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0063": {
+      "title": "Recovery of CO2 from tail gas in industrial facilities to substitute the use of fossil fuels for production of CO2",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "AM0075": {
+      "title": "collection, processing and supply of biogas to end-users for production of heat",
+      "family": "CDM",
+      "corpus_scale": null,
+      "cdm_scope": null
+    },
+    "ACCU-CS-004": {
+      "title": "Quantifying carbon sequestration methods\u200b",
+      "family": "OTHER",
+      "corpus_scale": null,
+      "cdm_scope": null
+    }
+  }
+}

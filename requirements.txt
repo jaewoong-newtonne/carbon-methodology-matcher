@@ -1,0 +1,27 @@
+# Anonymized code & data release — Python dependencies.
+# Python 3.10+ (the code uses PEP 604 unions and the walrus operator).
+# Versions are left unpinned: the dense index and PCA artifacts are NOT shipped
+# (registry ToS), so reviewers rebuild them; only a recent scikit-learn is needed
+# for that rebuild. The analysis used scikit-learn ~=1.6.
+
+# --- core (evaluation, metrics, significance, dense retrieval) ---
+numpy
+pandas
+scikit-learn
+PyYAML
+joblib
+tiktoken
+hnswlib             # dense (ANN) retrieval index — HybridRetriever and the dense-kNN baseline
+httpx               # also the transport for the Claude + Gemini reranker arms (raw HTTPS, no SDK)
+
+# --- vendor API (query embeddings + OpenAI reranker arms) ---
+openai              # text-embedding-3-large + OpenAI reranker arms
+# Claude (Anthropic Messages API) and Gemini (Google Generative Language API)
+# reranker arms are called over raw HTTPS via httpx — no extra SDK required.
+
+# --- corpus rebuild / ingest only (not needed to reproduce the reported tables) ---
+typedb-driver       # registry-rulebook knowledge-graph ingest (TypeDB 3.x)
+psycopg2-binary     # optional Postgres cross-check of the label set
+playwright          # headless fetch for registries that block plain HTTP clients
+PyMuPDF             # PDF text extraction (import name: fitz) for the CDM booklet loader
+openpyxl            # read the registry index spreadsheets used by the GS harvest
